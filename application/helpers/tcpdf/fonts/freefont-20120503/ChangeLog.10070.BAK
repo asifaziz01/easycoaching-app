@@ -1,0 +1,5329 @@
+2012-04-22 16:18 +0000 [r2239-2240]  Stevan_White:
+
+	* INSTALL: Improved info on Debian install.
+
+	* notes/troubleshooting.txt: More info on the blurry
+	  text in Windows issue.
+
+2012-04-22 11:43 +0000 [r2238]  Stevan_White:
+
+	* tools/report/OpenType/UnicodeRanges.py:
+	  Regularized abbreviatons of supplement, extended
+
+2012-04-22 11:06 +0000 [r2237]  Stevan_White:
+
+	* FreeSerifBold.sfd: Arabic: added 3 graphical
+	  marks to complete the range.
+
+2012-04-22 10:51 +0000 [r2236]  Stevan_White:
+
+	* FreeSerif.sfd: Fixed problems turned up by
+	  tests. Somehow alefmaksurainitialarabic hadn't been re-named. Two
+	  new Combining Diacritics hadn't been given Unicode.
+
+2012-04-21 17:11 +0000 [r2235]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeMono.sfd,
+	  FreeMonoBoldOblique.sfd: Revision of German
+	  TTF Names.
+
+2012-04-21 16:52 +0000 [r2231-2234]  Stevan_White:
+
+	* INSTALL: More info for Windows.
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd: PS Private: put in extra
+	  blues line, adjusted to numerals.
+
+	* tools/report/OpenType/UnicodeRanges.py: Corrected
+	  one range
+
+	* tools/generate/TrueType,
+	  tools/generate/WOFF,
+	  tools/generate/OpenType,
+	  tools/generate/MacTT: all: removed launch line
+	  WOFF: made quadratic, and autoinstructed TrueType: turned off
+	  saving of hints
+
+2012-04-21 11:17 +0000 [r2230]  Stevan_White:
+
+	* FreeSerifBold.sfd: Vietnamese: small
+	  adjustment of accents
+
+2012-04-20 12:57 +0000 [r2228-2229]  Stevan_White:
+
+	* AUTHORS, CREDITS: Various
+	  corrections, doing the best I could with stale URLs.
+
+	* ChangeLog: Some typos
+
+2012-04-20 11:06 +0000 [r2227]  Stevan_White:
+
+	* ChangeLog: Summary of changes since late last
+	  year.
+
+2012-04-19 21:07 +0000 [r2226]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: re-named
+	  alefmaksurainitialarabic and alefmaksuramedialarabic as
+	  alefmaksurainitialarabic and alefmaksuramedialarabic to avoid a
+	  confusing FontForge warning. This was discussed on the FontForge
+	  list, and a partial remedy was agreed upon.
+
+2012-04-19 21:02 +0000 [r2225]  Stevan_White:
+
+	* FreeSerif.sfd: GPOS table: removed the
+	  Cyrillic kerns with non-Unicode "alternative" Cyrillic, because
+	  FontForge warns that Windows apps will have *problems* with
+	  mappings that aren't Unicode-Unicode. Most of the kerns were
+	  rather small anyway.
+
+2012-04-19 20:39 +0000 [r2224]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMonoBoldOblique.sfd: TTF Names: Fixes bug
+	  #36232: Windows 7 strange bug with installation/font control
+	  panel. Also improved French names. (Thanks to Emmanuel Vallois)
+
+2012-04-18 07:31 +0000 [r2223]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Devanagari: Regularized
+	  overlap of horizontal. Cleaned up numerous other letters.
+
+2012-04-17 07:37 +0000 [r2222]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Currency Symbols:
+	  Added/corrected/adjusted Indian Rupee.
+
+2012-04-16 22:45 +0000 [r2221]  Stevan_White:
+
+	* notes/maintenance.txt,
+	  notes/usage.txt,
+	  notes/troubleshooting.txt,
+	  notes/webfont_guidelines.txt,
+	  notes/features.txt: Added section about where
+	  letters are to usage.txt Made sure svn properties are set for
+	  others.
+
+2012-04-16 22:26 +0000 [r2220]  Stevan_White:
+
+	* README: Updated information about file types
+
+2012-04-16 22:17 +0000 [r2219]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: resolves bug
+	  #36195: Arabic semicolon doesn't match with others
+
+2012-04-15 23:16 +0000 [r2218]  Stevan_White:
+
+	* FreeSerifBold.sfd: Arabic: this was meant to
+	  be in previous commit.
+
+2012-04-15 18:30 +0000 [r2217]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: Remedies bug
+	  #36196: Arabic ba and teh isolated and final. Also applied
+	  similar alteration to some similar letters. Bold: there were some
+	  missing ligatures of superscript marks.
+
+2012-04-15 17:52 +0000 [r2216]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: Remedies bug
+	  #36198: dots for Arabic letter jeh Also revised placement dots
+	  over some other letters.
+
+2012-04-15 13:24 +0000 [r2215]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: remedies bug #36191,
+	  Arabic character DAD final form
+
+2012-04-15 12:23 +0000 [r2214]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: toward bug #36189:
+	  discrepancy in different forms of ک and گ
+
+2012-04-15 12:02 +0000 [r2213]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: remedies bug
+	  #36190, Arabic question mark too small
+
+2012-04-15 11:16 +0000 [r2212]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Devanagari: anchors for
+	  recently added letters. Thanks, Zdenek.
+
+2012-04-15 10:44 +0000 [r2211]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: adjusted height of
+	  dots on a few glyphs
+
+2012-04-15 10:31 +0000 [r2210]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: remedies bug
+	  #36181: initial and final form of heh (U+0647)
+	  https://savannah.gnu.org/bugs/?36181
+
+2012-04-14 13:35 +0000 [r2209]  Stevan_White:
+
+	* tools/test/ranges/Arabic/arabic_test.py (added),
+	  tools/test/ranges/Arabic/unicode_joining.py
+	  (added),
+	  tools/test/ranges/Arabic/generate_arabic_shaping.py
+	  (added), tools/test/ranges (added),
+	  tools/test/ranges/Arabic (added): Scripts to
+	  generate comprehensive Arabic tests in HTML, courtesy of Emmanuel
+	  Vallois.
+
+2012-04-13 09:56 +0000 [r2208]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSerif.sfd: Devanagari: serif: corrected
+	  OpenType glyph type of ru, ruu ligatures to be base ligatures,
+	  not marks. sans, sans bold: added ka-ra "vatu" ligature at
+	  Zdenek's suggestion. sans: removed empty lookup.
+
+2012-04-10 20:33 +0000 [r2207]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: several mark
+	  placement issues, pointed out by Zdenek.
+
+2012-04-09 21:58 +0000 [r2206]  Stevan_White:
+
+	* sfd/Makefile, FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: made Arabic and
+	  Persion digits 500EM wide.
+
+2012-04-09 18:35 +0000 [r2205]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd: Arabic: messed with digits.
+	  Overall, had been building with GIT version of FontForge. found
+	  that older distro version 22-Feb-2011-ML shows warning dialogs
+	  Internal Error: EITOfNextMajor failed! on Clockwise Test
+	  (cleverly omitting the crucial info). Turns out, just rounding to
+	  int on certain characters fixes it.
+
+2012-04-09 11:34 +0000 [r2204]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: More kerning: tried
+	  to synch up normal and bold. Altered letters especially for
+	  Seraiki. Lots of fiddling with heh and heh-doachashmee. Seems the
+	  letter transforms very differently for different languages. This
+	  is not there yet.
+
+2012-04-08 12:53 +0000 [r2203]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: made 'ccmp' table
+	  and some combining marks to handle cases of letters that don't
+	  have positional forms in Unicode. Only did a few -- more are
+	  needed. Lots of kerning. Fiddled with shapes of several letters.
+
+2012-04-07 19:21 +0000 [r2202]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: more alterations toward
+	  bug #36115: Various little problems with Arabic/Persian glyphs
+	  More kerning. Some forms from Pashto are missing.
+
+2012-04-06 17:45 +0000 [r2201]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: made medial form of
+	  loop-letters more distinctive from initial forms. (toward bug bug
+	  #36115: Various little problems with Arabic/Persian glyphs)
+
+2012-04-05 16:43 +0000 [r2200]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: improvements to
+	  digits (Persian primarily) based on patch from Masoud Pourmoosa.
+
+2012-04-04 17:10 +0000 [r2199]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic; (for Farsi) toward
+	  bug 34700: made farsi yeh final more like the Unicode samples.
+	  https://savannah.gnu.org/bugs/?34700 Arabic/Persian in FreeSerif:
+	  ending "Yeh" is annoying
+
+2012-04-04 14:34 +0000 [r2198]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Various attempts to make
+	  web fonts work/look better. Sans Devanagari: made relation
+	  between overhang and horizontal more consistent for half-forms.
+	  Corrected metrics in FreeSansOblique. Some kerning overall, after
+	  looking again at sample pages
+
+2012-04-02 13:30 +0000 [r2197]  Stevan_White:
+
+	* FreeSansBold.sfd: Devanagari: toward more
+	  consistent spacing, especialy of half-forms
+
+2012-04-02 12:57 +0000 [r2196]  Stevan_White:
+
+	* FreeSans.sfd: Devanagri: better connection of
+	  horizontals, especially half forms.
+
+2012-04-01 13:45 +0000 [r2195]  Stevan_White:
+
+	* FreeSerif.sfd: Combining Diacritical Marks
+	  Supplement: made glyphs for large part of range. Latin
+	  Extended-D: made Latin con and US glyphs.
+
+2012-03-30 13:34 +0000 [r2193-2194]  Stevan_White:
+
+	* tools/generate/OpenType: Turn on PS rounding for
+	  Type1 glyphs
+
+	* FreeSerifItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoBoldOblique.sfd: Pointwise cleanup
+	  toward validation with PS rounding turned on for OpenType.
+
+2012-03-30 11:16 +0000 [r2192]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: bold, italic,
+	  re-considered vowel naming to avoid FF warnings. Latin: a bit of
+	  kerning
+
+2012-03-29 20:39 +0000 [r2191]  Stevan_White:
+
+	* notes/troubleshooting.txt: corrections about
+	  recent changes
+
+2012-03-28 19:59 +0000 [r2190]  Stevan_White:
+
+	* notes/troubleshooting.txt: Remarks about
+	  LibreOffice's challenges with OpenType features.
+
+2012-03-28 19:38 +0000 [r2189]  Stevan_White:
+
+	* notes/README-downloads.txt: brought up to date,
+	  regarding perferred format in various systems, and the WOFF files
+
+2012-03-28 19:31 +0000 [r2185-2188]  Stevan_White:
+
+	* AUTHORS, INSTALL,
+	  COPYING: changed SVN keywords
+
+	* ChangeLog: corrections, addition
+
+	* CREDITS: correctons, additions
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Devanagari: simplified dist
+	  lookup criteria
+
+2012-03-28 19:24 +0000 [r2184]  Stevan_White:
+
+	* tools/report/ligatureLookups.py: better error
+	  handling, doc
+
+2012-03-28 19:20 +0000 [r2183]  Stevan_White:
+
+	* FreeSerifBold.sfd: Devanagari: cleaned up a
+	  bunch of excess GPOS anchors; tidied lookups.
+
+2012-03-28 09:17 +0000 [r2180-2182]  Stevan_White:
+
+	* Makefile: insert troubleshooting doc
+
+	* notes/troubleshooting.txt (added): A doc
+	  explaining how to troubleshoot font problems.
+
+	* notes/usage.txt: Tidied, more explanation of the
+	  doc as a whole.
+
+2012-03-26 10:43 +0000 [r2179]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: much experimenting
+	  with lookups to center western punctuation between words
+	  (resulted in several bug reports on firefox and xetex).
+	  Currently, uses GSUB 'locl'. GPOS are too problematic in apps to
+	  use.
+
+2012-03-25 09:49 +0000 [r2178]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Devanagari: added
+	  positioning for western punctuation
+
+2012-03-25 09:40 +0000 [r2177]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari, Bengali: small
+	  tweeks to dots
+
+2012-03-24 21:34 +0000 [r2176]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMonoBoldOblique.sfd: TTF Names: Hindi
+	  hyphenated term
+
+2012-03-24 10:20 +0000 [r2175]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: regarding
+	  horizontal spacing, on advice of Zdenek. o, au -- stems were too
+	  close. danda, dbldanda: much too near preceding word. Made so
+	  that danda-space would space the mark evenly between the words.
+	  Made lookups for similarly-spaced question and exclamation marks.
+	  Kerning (or dist?): Experiments -- problems include: Firefox
+	  doesn't seem to support "dist". Xetex doesn't turn kerning on by
+	  default. Fontforge complains Windows doesn't like to kern
+	  auxiliaries with Unicode ranges. Nonetheless, it does pack words
+	  rather tighter. My own advice: made ra glyph more narrow. It was
+	  the worst, spacing wise, on the un-kerned page. Oriya: made
+	  similar spacing for its danda.
+
+2012-03-23 12:56 +0000 [r2174]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: efforts to
+	  improve horizontal spacing, that Zdenek complains about. 1)
+	  medium: o, au vowels: stems too close 2) danda, dbldanda, should
+	  be widely separated from words, centred between them. 3) bold: on
+	  horizontal, bevels extend rather more than they should (reduced
+	  in Unicode and through first set of half marks in the
+	  auxiliaries... willl complete later.) 4) made special localized
+	  forms of question, exclamation mark.
+
+2012-03-22 23:25 +0000 [r2172-2173]  Stevan_White:
+
+	* tools/generate/TrueType,
+	  tools/generate/WOFF,
+	  tools/generate/OpenType: Set the encoding to
+	  UnicodeFull before build (a bit wasteful for faces with no high
+	  Unicode, but couldn't think of a better way.)
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd: More re-thinking of OS/2
+	  weights. In sans, again adjusted OS/2 Windows metrics to stop
+	  clipping. (I'm just sure this will mess up line spacing in
+	  OpenOffice, but didn't have time to check. Something has a bug.)
+
+2012-03-22 19:17 +0000 [r2171]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Font Info: filled out
+	  TTF Names Fullname for Hindi
+
+2012-03-22 19:00 +0000 [r2170]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Added Hindi term for
+	  Font Style in TTF Names (courtesy of Monika Shah)
+
+2012-03-22 18:49 +0000 [r2169]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: FontInfo:
+	  re-considered OS/2 and Panose weight descriptions
+
+2012-03-22 15:02 +0000 [r2168]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: Replaced a
+	  'pres' table that got zeroed by a crash. More adjustments to mark
+	  placement.
+
+2012-03-22 12:51 +0000 [r2167]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: Replaced lost
+	  'pres' lookup tables.
+
+2012-03-22 10:35 +0000 [r2166]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Overall: Several
+	  measures toward reducing warnings from Font Validator. In "roman"
+	  faces, change TTF Name: SubFamily to "Regular". (FontForge binds
+	  this to PSNames:Weight --? so changed that.) Experimenting with
+	  General:Name For Humans (Fiddled with Family Name too...but
+	  changed it back.) Changes to OS/2:Sub/Super Subscript Offset --
+	  made positive. Some fiddling with Panose info. Also: previously
+	  OS/2 Charsets missed 708, Arabic ASMO 708. (Bug in
+	  FontForge-patch reported.) In sans and mono oblique, bold, and
+	  boldoblique, added some math operators to fill an Apple codepage.
+	  Sinhala: FreeSerifBold -- implemented same change moving 'ccmp'
+	  to 'akhn' as in roman face. Has to do with bug in OpenOffice/ICU.
+
+2012-03-20 08:25 +0000 [r2165]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: OS/2 small tweeks:
+	  set "weight, width, slope only"
+
+2012-03-19 18:34 +0000 [r2164]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: OS/2 Charsets: made serif,
+	  serifbold, mono to support ASMO 708 MS Codepage for Arabic (small
+	  bug in FontForge) OS/2 Version: changed from Automatic to 3 for
+	  all, only to satisfy old MS Font Validator, which chokes on
+	  higher versions.
+
+2012-03-19 09:45 +0000 [r2163]  Stevan_White:
+
+	* FreeMono.sfd: correction-something went wrong
+	  with the encoding two commits ago. (I switched encoding from
+	  custom to BMP and back again.) This should encorporate the recent
+	  changes and fix the problem.
+
+2012-03-19 09:07 +0000 [r2162]  Stevan_White:
+
+	* tools/report/OpenType/UnicodeRanges.py: comments
+	  containing new Unicode ranges without ulUnicodeRange bits
+
+2012-03-19 08:41 +0000 [r2161]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: OS/2 version: set to
+	  3 (was "Automatic") mostly for MS Font Validator. Arabic
+	  Presentation Forms B: (regular) made lam-alif ligatures,
+	  completing range.
+
+2012-03-18 15:57 +0000 [r2160]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Devanagari: more toward
+	  positioning of marks.
+
+2012-03-18 15:09 +0000 [r2159]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Devanagari: resolved some
+	  dfficult cases reported by Zdenek. (esp. that esign and reph
+	  could come in either order.)
+
+2012-03-18 06:37 +0000 [r2158]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSerif.sfd: Devanagari: More toward proper
+	  mark placement.
+
+2012-03-16 17:39 +0000 [r2157]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: more issues
+	  regarding mark placement.
+
+2012-03-15 23:39 +0000 [r2156]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: toward fixing
+	  mark positioning problems Zdenek pointed out.
+
+2012-03-15 10:28 +0000 [r2155]  Stevan_White:
+
+	* FreeSerif.sfd: Latin: got i-ogonek-acute to
+	  remove dot over i again (for Navaho). Problem was evidently a
+	  DFLT{dflt} entry in lookup language tags.
+
+2012-03-15 10:03 +0000 [r2153-2154]  Stevan_White:
+
+	* FreeSans.sfd: Devanagari: fixes for some mark
+	  issues pointed out by Zdenek.
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: corrected
+	  longstanding problem that made stacked Vietnamese accents fail.
+	  Had to do with long list of languages filter of default ligature
+	  lookup, excluding Turkish, and rendering logic I don't
+	  understand. Devanagari: toward correcting marks stacked below
+	  rakaar.
+
+2012-03-13 16:29 +0000 [r2152]  Stevan_White:
+
+	* FreeSerif.sfd: Mathematical Alphanumeric
+	  Symbols (especially) named some characters
+
+2012-03-13 10:46 +0000 [r2151]  Stevan_White:
+
+	* FreeSerifBold.sfd: Devanagari: ha-rrvocalic
+	  and improved ha-rakaar, as in medium
+
+2012-03-12 21:59 +0000 [r2150]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Mathematical Operators:
+	  reduced horizontal spacing of complement operator
+
+2012-03-12 21:28 +0000 [r2149]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Mathematical Operators:
+	  re-thought dimensions of "complement" symbol (after seeing it in
+	  Dieudonné's analysis book)
+
+2012-03-12 18:49 +0000 [r2148]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Devanagari: various adjustments
+	  to marks. serif: added ha-llvocalic, rplaced ha_ra conjunct,
+	  positioned virama separately from fowels.
+
+2012-03-11 22:39 +0000 [r2147]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Bengali: adjustments to marks;
+	  GPOS tables to position them.
+
+2012-03-11 16:37 +0000 [r2146]  Stevan_White:
+
+	* FreeSansOblique.sfd: Bengali: fixed some
+	  horizontal spacing issues
+
+2012-03-11 00:56 +0000 [r2145]  Stevan_White:
+
+	* FreeSansBold.sfd,
+	  FreeSerif.sfd: Made to pass tests -- mostly
+	  little pointwise tweeks. One range of auxiliaries had wandered
+	  out of the Private Use area.
+
+2012-03-10 23:55 +0000 [r2144]  Stevan_White:
+
+	* FreeMonoOblique.sfd: Armenian: corrected width
+	  of one glyph
+
+2012-03-10 18:53 +0000 [r2143]  Stevan_White:
+
+	* FreeSans.sfd: Bengali: completed pointwise
+	  clean-up of auxiliaries. Found a couple more with quite wrong
+	  rignt bounds.
+
+2012-03-10 13:15 +0000 [r2142]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: OS/2 vertical metrics:
+	  another change of heart: made vertical metrics like other fonts I
+	  looked at, and tightened line spacing. Bengali: (sans) point-wise
+	  clean-up down to bn_l_dd_ra (before I pooped out) Fixed right
+	  bound of several auxiliaries, such as bn_p_ma, bn_m_p_la
+
+2012-03-09 19:04 +0000 [r2141]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Removed some unintended
+	  empty contours. Pointwise clean-up of points too close (but gave
+	  up on Bengali range.)
+
+2012-03-09 18:45 +0000 [r2139-2140]  Stevan_White:
+
+	* tools/generate/TrueType: Made splines quadratic
+
+	* FreeMonoOblique.sfd: Pointwise cleanup of
+	  "points too close" problems.
+
+2012-03-09 18:35 +0000 [r2138]  Stevan_White:
+
+	* FreeSerifBold.sfd: Removed an unintended empty
+	  contour
+
+2012-03-09 16:52 +0000 [r2137]  Stevan_White:
+
+	* tools/generate/TrueType,
+	  tools/generate/WOFF,
+	  tools/generate/OpenType,
+	  tools/generate/buildutils.py,
+	  tools/generate/MacTT: Updated copyrights
+
+2012-03-09 16:49 +0000 [r2136]  Stevan_White:
+
+	* sfd/Makefile: Made to properly report progress for
+	  OpenType target
+
+2012-03-09 16:08 +0000 [r2135]  Stevan_White:
+
+	* FreeSerif.sfd: Mahjong Tiles: The previous
+	  commit didn't quite do it. Sometimes, but starting the generate
+	  process from scratch, it still crashed. But this "circle" glyph
+	  was excessively elaborate anyway. Made it simpler, cleaned it up,
+	  and now the crash isn't happening.
+
+2012-03-09 13:12 +0000 [r2134]  Stevan_White:
+
+	* FreeSerif.sfd: Mahjong Tiles: work-around for
+	  FontForge crash, by use of references. Crash: Select All,
+	  AutoHint. Generate Fonts, OpenType Options, check Postscript
+	  Hints. Generate. segfault.
+
+2012-03-09 12:04 +0000 [r2133]  Stevan_White:
+
+	* FreeSerif.sfd: Mahjong Tiles: named the glyphs
+
+2012-03-09 01:17 +0000 [r2132]  Stevan_White:
+
+	* FreeSans.sfd: Corrected mixed reference and
+	  contour. Overall point-wise cleanup "points too close"
+
+2012-03-07 23:27 +0000 [r2131]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Font Info General:
+	  changed copyright 2011 to 2012 since no public release was made
+	  last year.
+
+2012-03-07 21:06 +0000 [r2130]  Stevan_White:
+
+	* Makefile: Source tarball now includes all build
+	  scripts etc.
+
+2012-03-07 14:50 +0000 [r2129]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: .notdef: made clearer
+	  that something is missing...
+
+2012-03-06 19:07 +0000 [r2128]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: mostly
+	  adjustments to mark placement.
+
+2012-03-06 11:22 +0000 [r2127]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Devanagari: various
+	  alterations toward ligatures as in Velthuis manual, and for
+	  legibility.
+
+2012-03-05 21:18 +0000 [r2126]  Stevan_White:
+
+	* FreeSansBold.sfd: Devanagari: made half-na a
+	  bit wider on Monika Shah's recommendation. Tweeked several other
+	  auxiliaries for legibility.
+
+2012-03-05 20:25 +0000 [r2125]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Devanagari: Several issues
+	  reported by Monika Shah, including rakaar being placed
+	  improperly, and some Sanskrit ligatures leaking into Hindi.
+
+2012-03-05 16:41 +0000 [r2124]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Devanagari: combined
+	  half-form issues, reported by Zdenek Wagner.
+
+2012-03-05 15:07 +0000 [r2123]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: Several
+	  alterations based on a report by Zdenek Wagner. Anusvara in
+	  conjunction with other above marks, u and uumatra in conjunction
+	  with ha and nuktas.
+
+2012-03-05 01:22 +0000 [r2122]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansOblique.sfd: Bengali: Several
+	  ligatures with ba had lost the holes in their ba. (bn_k_ba, etc);
+	  also bn_asamib_r_ukaar. Copied holes from similar glyphs. A
+	  similar thing may have happend to a couple of other ligs
+	  (bn_ss_tta1, bn_ss_tt_ra1). I don't know how these should look,
+	  but they seem to be unused anyway.
+
+2012-03-04 18:24 +0000 [r2121]  Stevan_White:
+
+	* FreeSerifItalic.sfd: general clean-up of
+	  points too close. Bogged down on Bengali.
+
+2012-03-04 18:01 +0000 [r2120]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Currency Symbols: added
+	  Rupee to italic. general clean-up of points too close.
+
+2012-03-04 13:18 +0000 [r2119]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Gurmukhi: adjusted
+	  placement of dots. re-named tables and rounded to int in bold.
+
+2012-03-04 12:25 +0000 [r2118]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari Extended: completed
+	  range
+
+2012-03-04 11:25 +0000 [r2117]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoOblique.sfd: Armenian: added dhahma
+	  (and ran clear hints)
+
+2012-03-04 11:21 +0000 [r2116]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd, FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Armenian: added drahma
+
+2012-03-04 10:45 +0000 [r2115]  Stevan_White:
+
+	* FreeSerifBold.sfd: Devanagari: completed main
+	  Unicode range.
+
+2012-03-04 10:17 +0000 [r2114]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Gurmukhi: Added range in
+	  bold. Serif: Many point-wise cleanups, in Gurmukhi and other
+	  ranges.
+
+2012-03-02 22:19 +0000 [r2113]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: starting to
+	  converge. In serif, added ra-u and ra-uu and tables, raised
+	  anusvara. Various small alterations to sans letters.
+
+2012-03-02 15:18 +0000 [r2112]  Stevan_White:
+
+	* FreeSansBold.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: corrected
+	  rakaar on letter da
+
+2012-03-02 14:56 +0000 [r2111]  Stevan_White:
+
+	* FreeSansBold.sfd: Devanagari: glyph clean-up
+	  pass through auxiliaries.
+
+2012-03-02 12:22 +0000 [r2110]  Stevan_White:
+
+	* FreeSansBold.sfd: Devanagari: clean-up pass
+	  through Unicode range. Added a few ligatures.
+
+2012-03-02 03:35 +0000 [r2107-2109]  Stevan_White:
+
+	* FreeSansBold.sfd: Devanagari: implemented by
+	  increasing weight of letters from Sans. Subset of auxiliaries in
+	  Sans: plan is to do more with tables.
+
+	* FreeSans.sfd: Devanagari: re-instated
+	  dev_ha_rvocalic.blws
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: corrected table
+	  having to do with rakaar on round consonants
+
+2012-03-01 19:50 +0000 [r2106]  Stevan_White:
+
+	* FreeSans.sfd: Devanagari: Regularized
+	  horizontal bar height and width, as well as size and shape of dot
+	  marks (made all diamonds). More use of references. (With GPOS
+	  tables, most of the nuktas and halents would go away.) Latin:
+	  made comma a bit less spindly, and likewise with derived marks.
+
+2012-02-29 22:29 +0000 [r2105]  Stevan_White:
+
+	* FreeSerif.sfd: Bengali: some insignificant
+	  clean-up. what to do about these glyphs?
+
+2012-02-29 19:12 +0000 [r2104]  Stevan_White:
+
+	* FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd: Various small corrections
+	  to get test suite to run
+
+2012-02-29 17:02 +0000 [r2103]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: corrected table
+	  tag for style sets. Made substitutions for Marathi more like
+	  those for Hindi than Sanskrit.
+
+2012-02-29 11:21 +0000 [r2102]  Stevan_White:
+
+	* FreeSerifBold.sfd: Devanagari: should now have
+	  same coverage as regular face.
+
+2012-02-29 07:10 +0000 [r2101]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: replaced
+	  auxiliaries; added positioning anchors.
+
+2012-02-25 13:52 +0000 [r2100]  Stevan_White:
+
+	* Makefile: include usage notes in packages
+
+2012-02-25 10:40 +0000 [r2099]  Stevan_White:
+
+	* notes/usage.txt: Further notes
+
+2012-02-25 10:30 +0000 [r2098]  Stevan_White:
+
+	* notes/usage.txt (added),
+	  notes/features.txt: Usage notes -- primarily about
+	  discretionary and language-specific features, what they're for
+	  and how to use them.
+
+2012-02-24 15:58 +0000 [r2097]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: Special form for ukar
+	  under some consonants, ligatures for several consonants with
+	  aakar, with lookups.
+
+2012-02-24 12:21 +0000 [r2096]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: found auxiliaries that
+	  had excaped clean-up.
+
+2012-02-24 11:47 +0000 [r2095]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: Switched yophola and
+	  yyophola for about the 3rd time. This time, following doc for
+	  ortex. Clean-up of "points too close".
+
+2012-02-23 23:37 +0000 [r2094]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: removed overlap of
+	  components, validated.
+
+2012-02-23 23:25 +0000 [r2093]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: glyph cleanup of
+	  auxiliaries complete.
+
+2012-02-23 19:55 +0000 [r2092]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: one removed glyph had
+	  stowed away in a chaining lookup list
+
+2012-02-23 18:09 +0000 [r2091]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: Corrected lookup tag for
+	  'haln' form for 'no'. More glyph cleanup in auxiliaries.
+
+2012-02-23 16:19 +0000 [r2090]  daniel_j:
+
+	* FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd: Set correct codepoint
+	  and Unicode name for uniA7AA (hooked H) in sans bold and
+	  bold-oblique
+
+2012-02-23 14:52 +0000 [r2089]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: corrected blown-out
+	  letter in main range, renamed an auxiliary.
+
+2012-02-23 14:11 +0000 [r2088]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: worked on vowels.
+	  adjusted ii and ai_length to improve connections. Made table for
+	  i sign beneath tho, dho.
+
+2012-02-23 13:35 +0000 [r2087]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: in auxiliary glyphs, a
+	  bit more clean-up, regularizing stem widths. Moved previous
+	  'half' to 'haln', as 'half' isn't recognized by Pango.
+
+2012-02-23 12:46 +0000 [r2086]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: Re-shaped a few letters
+	  with over-thick round parts. Made vowels a bit closer to base
+	  letter.
+
+2012-02-23 11:53 +0000 [r2085]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: made verticals in main
+	  range of more consistent width.
+
+2012-02-22 22:32 +0000 [r2084]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: more lookups seem to be
+	  working, but there is a big question about why the halent
+	  switches position. Is this the shaping engine, or something I've
+	  done with the tables?
+
+2012-02-22 19:44 +0000 [r2083]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: regularized glyph
+	  bearings
+
+2012-02-22 19:18 +0000 [r2082]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: enabled lookups for lots
+	  more ligatures. Still concerned that akhans aren't activating.
+	  Some adjustment of stem widths, etc.
+
+2012-02-22 09:38 +0000 [r2081]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: made anusvara a spacing
+	  mark, made tables and spacing versions of below base marks to
+	  avoid collisions with subscripted consonants, adjusted vowel e to
+	  be less angular and a bit lighter.
+
+2012-02-22 00:44 +0000 [r2080]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: a lot of work with
+	  tables getting examples on MS Typography pages on Oriya to work.
+	  Glyph clean-up, mark adjustments.
+
+2012-02-21 10:39 +0000 [r2079]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: completed Unicode range;
+	  more glyph clean-up. yophola and zophola were exchanged -- fixed.
+	  made look-up for reph+canrabindu.
+
+2012-02-20 22:39 +0000 [r2078]  Stevan_White:
+
+	* FreeSans.sfd: Devanagari: better use of
+	  references in auxiliary range
+
+2012-02-20 08:41 +0000 [r2077]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: more glyph clean-up
+
+2012-02-19 20:52 +0000 [r2076]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeSerifBold.sfd: Currency Symbols: New
+	  Indian Rupee.
+
+2012-02-19 20:27 +0000 [r2075]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Currency Symbols: Rupee ought
+	  to be shaped as a Devanagari ra with two horizontals, as pointed
+	  out by Santhosh Thottingal.
+
+2012-02-19 20:05 +0000 [r2074]  Stevan_White:
+
+	* FreeSans.sfd: Malayalam: corrected l_voc_mal
+	  and ll_voc_mal, which were completely wrong, as pointed out by
+	  Santhosh Thottingal.
+
+2012-02-19 19:37 +0000 [r2073]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: Made vowels combine more
+	  correctly. More glyph clean-up.
+
+2012-02-19 11:03 +0000 [r2072]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: more glyph clean-up
+
+2012-02-19 00:51 +0000 [r2071]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: clean-up, glyph
+	  validation of main Unicode range.
+
+2012-02-18 21:50 +0000 [r2070]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: Removed overlaps,
+	  cleaned up resulting issues.
+
+2012-02-18 19:34 +0000 [r2069]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: main glyph clean-up
+	  done. some mods to glyph shapes . added a few i-widening table
+	  entries.
+
+2012-02-18 18:16 +0000 [r2068]  Stevan_White:
+
+	* FreeSans.sfd: Malayalam: positioning tables
+	  for below marks l_voc_mal and ll_voc_mal, as well as for reph.
+	  (consult latest development version of Meera). Currency: made
+	  indian Rupee sign a bit wider
+
+2012-02-18 00:02 +0000 [r2067]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: further glyph
+	  clean-up (almost there!). Adjusted marks. Made new lookups to
+	  pick letter i based on width of the letter it goes over.
+
+2012-02-17 14:42 +0000 [r2066]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: mostly messing with
+	  mark positioning: got rid of carat-reph forms.
+
+2012-02-17 11:28 +0000 [r2065]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: further glyph
+	  clean-up, adjustments to mark placement.
+
+2012-02-17 01:44 +0000 [r2064]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: replaced ha_half,
+	  added some lookups for above marks.
+
+2012-02-17 00:14 +0000 [r2062-2063]  Stevan_White:
+
+	* FreeSerif.sfd: Correction: kerning tables were
+	  blown out in commit 2056. There were several bad crashes about
+	  that time. The effect seems to be: all kern table entries are set
+	  to 0.
+
+	* sfd/Makefile, FreeSansBold.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: kerning tables restored.
+	  Problem happened in commit 2096
+
+2012-02-16 23:41 +0000 [r2061]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: more glyph clean-up,
+	  mostly in auxiliaries. Just noticed all kern tables have been
+	  zeroed again (thank you, FontForge).
+
+2012-02-16 21:11 +0000 [r2060]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: glyph clean-up of
+	  Unicode range, some of auxiliary glyphs.
+
+2012-02-15 20:16 +0000 [r2059]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: more glyph clean-up,
+	  re-naming. much more to do.
+
+2012-02-15 17:12 +0000 [r2058]  Stevan_White:
+
+	* FreeSerif.sfd: Gujurati: removed anusvara and
+	  nukta lookups in preference of positioning. general glyph
+	  clean-up. deleted a bunch of unused characters. Oriya: general
+	  glyph clean-up.
+
+2012-02-14 23:59 +0000 [r2057]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: Again, from Samak
+	  Gujarati font (full GPL 3.0 with font exception) Scaled slightly
+	  to fit bounds, moved some letters, renamed a few. Lots more to
+	  do.
+
+2012-02-14 22:35 +0000 [r2056]  Stevan_White:
+
+	* FreeSerif.sfd: reverting previous commit.
+	  lookup tables somehow got damaged
+
+2012-02-14 20:40 +0000 [r2055]  Stevan_White:
+
+	* FreeSerif.sfd: Gujarati: From Samak Gujarati
+	  font (full GPL 3.0 with font exception) Scaled slightly to fit
+	  bounds, moved some letters, renamed a few. Lots more to do.
+
+2012-02-14 19:37 +0000 [r2054]  Stevan_White:
+
+	* FreeSans.sfd: Gujarati: Deleted range, over
+	  questions of its provenance. Tut mir leid.
+
+2012-02-13 23:16 +0000 [r2052-2053]  Stevan_White:
+
+	* FreeSerif.sfd: Tamil: cleaned up 'virama'
+	  glyph.
+
+	* FreeSerif.sfd: Gurmukhi: cleaned up 'aa'
+	  glyph.
+
+2012-02-13 23:11 +0000 [r2051]  Stevan_White:
+
+	* FreeSerif.sfd: Gurmukhi: cleaned up 'a' glyph.
+
+2012-02-13 23:06 +0000 [r2049-2050]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: compacted auxiliary
+	  glyphs a bit.
+
+	* FreeSerif.sfd: Oriya: removed most holonto and
+	  nukta forms in preference for positioning lookups
+
+2012-02-13 21:08 +0000 [r2048]  Stevan_White:
+
+	* FreeSans.sfd: Gujarati: made to validate
+
+2012-02-13 20:55 +0000 [r2047]  Stevan_White:
+
+	* FreeSans.sfd: Gujarati: regularized horizontal
+	  placement and spacing, mostly increasing spacing a bit. Got rid
+	  of nukta substitution table in favor of positioning lookup;
+	  likewise with all anusvara lookups. The glyphs of this range are
+	  still very erratic, and the weight is substantially greater than
+	  that of the rest of the face.
+
+2012-02-13 13:56 +0000 [r2046]  Stevan_White:
+
+	* FreeSans.sfd: Gujarati: shifted entire range
+	  up by 44EM, so it didn't dangle so. Fiddled with mark placement.
+
+2012-02-13 00:01 +0000 [r2045]  Stevan_White:
+
+	* FreeSerif.sfd: Gurmukhi: improved vowel a.
+
+2012-02-12 23:29 +0000 [r2044]  Stevan_White:
+
+	* FreeSerif.sfd: Gurmukhi: replaced range with
+	  glyphs from 'singh' metafont by Amarjit Singh
+	  http://www.tex.ac.uk/tex-archive/language/gurmukhi/ The 'singh'
+	  font is properly GPL. And the overall look is much more like
+	  serif than what had been there. Status: added a few letters and
+	  tables. Two marks were unrepresented in 'singh', and are
+	  leftovers. I made a ya_halant and a ra below-form. Also made
+	  substitution and positioning tables. Worst: the vowel 'a' is very
+	  messed up -- much too heavy; hand-drawn. Will have to replace it.
+	  Also need to review the missing marks. Pity there's no bold...
+
+2012-02-12 22:02 +0000 [r2043]  Stevan_White:
+
+	* tools/utility/metafont/bulk_eps_import.py (added),
+	  tools/utility/metafont (added): Tools for
+	  extracting glyphs from metafont files
+
+2012-02-10 23:22 +0000 [r2042]  Stevan_White:
+
+	* FreeSansBold.sfd: Gurmukhi: more of same.
+
+2012-02-10 23:18 +0000 [r2041]  Stevan_White:
+
+	* FreeSansBold.sfd: Gurmukhi: adjusted GPOS
+	  entries
+
+2012-02-10 22:58 +0000 [r2040]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Gurmukhi: various tweeks to
+	  ligatures. Gujarati: various tweeks to ligatures.
+
+2012-02-10 19:01 +0000 [r2039]  Stevan_White:
+
+	* FreeSansBold.sfd: Gurmukhi: toward version in
+	  medium. Geometric Shapes: made dotted circle.
+
+2012-02-10 17:57 +0000 [r2038]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: added letters to
+	  complete range. re-named letters for consistency with other indic
+	  languages. fixed a broken table.
+
+2012-02-10 16:46 +0000 [r2037]  daniel_j:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Unicode 6.1 addition in
+	  FreeSerif: H-hook (U+A7AA) for Chadian languages
+
+2012-02-10 15:46 +0000 [r2036]  Stevan_White:
+
+	* FreeSerif.sfd: Oriya: Re-introduced, using
+	  Samak Oriya, a GPL v.3 + font exception.
+	  http://sarovar.org/projects/samyak/ Already the original is
+	  altered in several ways. The glyphs need a lot of work.
+
+2012-02-10 12:03 +0000 [r2035]  Stevan_White:
+
+	* tools/report/OpenType/UnicodeRanges.py: corrected
+	  Private Use range
+
+2012-02-09 18:50 +0000 [r2034]  Stevan_White:
+
+	* FreeSans.sfd: Gujarati: added abbreviation
+	  character
+
+2012-02-09 18:29 +0000 [r2033]  Stevan_White:
+
+	* FreeSans.sfd: Gurmukhi: named glyphs better.
+	  Malayalam: corrected problems caused by recent inconsistent
+	  naming.
+
+2012-02-09 16:36 +0000 [r2032]  Stevan_White:
+
+	* FreeSans.sfd: Gujurati: named characters
+	  better -- makes it easier to see table problems. Found one error
+	  in tables, fixed. There are others.
+
+2012-02-08 19:55 +0000 [r2031]  Stevan_White:
+
+	* FreeSerif.sfd: Tamil: several new tables in
+	  effort to resolve spacing bug.
+
+2012-02-08 15:37 +0000 [r2030]  Stevan_White:
+
+	* FreeSerif.sfd: Tamil: fixed shrii ligature
+
+2012-02-08 15:15 +0000 [r2029]  Stevan_White:
+
+	* FreeSerif.sfd: Tamil: Toward resolution of bug
+	  #35479: Tamil in FreeSerif: some ligatures wrong
+	  https://savannah.gnu.org/bugs/index.php?35479 Removed GSUB tables
+	  about positioning the virama; implemented this with a GPOS table
+	  and anchor points. Corrected tables for sshri, kss ligatures.
+	  Toward resolution of bug #35480: Tamil in FreeSerif: placement of
+	  vowel marks poor https://savannah.gnu.org/bugs/index.php?35480
+	  Made a vertical ii sign, made a contextual chain that replaces
+	  the normal ii with this one for certain letters.
+
+2012-02-08 01:41 +0000 [r2028]  Stevan_White:
+
+	* FreeSerif.sfd: Malayalam: Added subtable for
+	  nta (mal_n1rh), Separated 'psts' subtable into u and uu ones, and
+	  everything else, hoping somehow to deal with the orthographic
+	  reform.
+
+2012-02-07 23:52 +0000 [r2026-2027]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Malayalam: some additions from
+	  recent Unicode (historical letters) Rearranged akhan lookups.
+
+	* tools/report/OpenType/UnicodeRanges.py: Recent
+	  Unicode additions
+
+2012-02-06 19:24 +0000 [r2025]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Latin: Fixed broken
+	  kerning. Problem was: there was an entry for 'f' as the first
+	  letter in two subtables of the same lookup. The second subtable
+	  was ignored, even though there was no match for the second letter
+	  in the first lookup. That is, within a kern lookup, the first
+	  letters of the pairs should be unique.
+
+2012-02-06 14:41 +0000 [r2023-2024]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Latin: put dflt back in
+	  Standard Ligature language list
+
+	* FreeSerif.sfd: Devanagari: added glyphs for
+	  Bompay, Calcutta, Nepali styles from velthuis. made Style Set
+	  lookups for them. Latin: put dflt back in the Standard Ligatures
+	  language list
+
+2012-02-05 23:59 +0000 [r2022]  Stevan_White:
+
+	* FreeSerifBold.sfd: Devanagari: named more
+	  Unicode glyphs, tried to make tables more like latest Serif. Know
+	  of one inconsistency remaining.
+
+2012-02-05 12:18 +0000 [r2021]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: re-worked overlarge
+	  reph-anudatta. Regularized table naming.
+
+2012-02-04 21:50 +0000 [r2019-2020]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: lookup tables --
+	  for the first time, test matches big table of ligatures in
+	  velthuis (wrt Sanskrit and Hindi).
+
+	* FreeSans.sfd: Devanagari: named a bunch of
+	  Unicode glyphs
+
+2012-02-03 15:09 +0000 [r2018]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: another
+	  re-arrangement of tables for velthuis compliance. problems
+	  persist.
+
+2012-02-01 20:59 +0000 [r2017]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: complete
+	  re-structuring of tables in attempt to resemble better the specs
+	  about Indic tables, and produce ligatures of the velthuis font.
+	  Hebrew: Support raising of Yiddish vowel marks.
+
+2012-02-01 19:29 +0000 [r2016]  daniel_j:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Unicode 6.1 additions
+	  in FreeSans: - Tifinagh Ye, Yo - Armenian dram - African H with
+	  hook
+
+2012-01-31 12:02 +0000 [r2015]  Stevan_White:
+
+	* FreeSansBoldOblique.sfd: Hebrew: last commit
+	  accidentlly widened right side of many letters
+
+2012-01-31 11:51 +0000 [r2014]  Stevan_White:
+
+	* FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Hebrew: more
+	  adjustment of points: bold--shifted letters to right
+
+2012-01-31 11:08 +0000 [r2013]  Stevan_White:
+
+	* FreeSansOblique.sfd: Hebrew: some adjustment
+	  of mark positioning
+
+2012-01-31 10:58 +0000 [r2012]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Hebrew: adjustments to
+	  positioning marks; italic moved letter yod
+
+2012-01-31 10:33 +0000 [r2011]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Hebrew: deleted incorrect
+	  ligature lookup
+
+2012-01-31 10:24 +0000 [r2010]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Hebrew: deleted
+	  incorrect ligature lookup
+
+2012-01-31 10:13 +0000 [r2009]  Stevan_White:
+
+	* FreeSansBold.sfd: Hebrew: adjustments to mark
+	  positioning, a bit of tidying of letters. Latin: deleted a
+	  mistakenly copied table.
+
+2012-01-31 09:47 +0000 [r2008]  Stevan_White:
+
+	* FreeSansBold.sfd: Hebrew: added mark
+	  positioning
+
+2012-01-31 00:15 +0000 [r2007]  Stevan_White:
+
+	* FreeSans.sfd: Hebrew: should rememdy bug
+	  #35409: Incorrect placement of khirik-yud for Yiddish in FreeSans
+	  (At least for FreeSans medium)
+
+2012-01-28 14:26 +0000 [r2006]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Devanagari: roman--adjusted
+	  auxiliary glyph names to better fit bold bold: several
+	  corrections
+
+2012-01-28 12:37 +0000 [r2005]  Stevan_White:
+
+	* FreeSerifBold.sfd: Devanagari: various repairs
+	  to glyphs and tables
+
+2012-01-28 01:36 +0000 [r2004]  Stevan_White:
+
+	* FreeSerifBold.sfd: Devanagari: added glyphs
+	  from velthuis font's dvngb10.pfb, added subtables from FreeSerif.
+	  Still plenty missing.
+
+2012-01-27 22:13 +0000 [r2003]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: a couple more
+	  tables to handle velthuis corner cases.
+
+2012-01-26 22:52 +0000 [r2002]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: fixed a few lookup
+	  problems. several more remain.
+
+2012-01-25 14:24 +0000 [r2000-2001]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: adjustments to mark
+	  positioning
+
+	* FreeSans.sfd: Latin: adjustments to accents
+	  Devanagari: re-working tables for better support of Hindi vs
+	  Sanskrit
+
+2012-01-25 12:09 +0000 [r1999]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: Named some letters;
+	  some table clean-up. Devanagari Extended: Added combining
+	  cantillation marks.
+
+2012-01-24 15:02 +0000 [r1998]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: Most of the
+	  previous commits about Hindi were in error: two columns of the
+	  velthuis manual for Modern Hindi and Old Hindi were swapped. This
+	  now implements Modern Hindi, except for one conjunct. Old Hindi
+	  conjuncts are moved to separate tables, but Old Hindi is not
+	  specifically supported.
+
+2012-01-23 18:48 +0000 [r1997]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: several table
+	  corrections, based on new tests.
+
+2012-01-23 10:18 +0000 [r1996]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: table for
+	  consonants that don't take half-form, other conjunct table
+	  tweeks.
+
+2012-01-21 23:20 +0000 [r1995]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: many small
+	  corrections to GSUB.
+
+2012-01-20 13:44 +0000 [r1994]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: Sanskrit/Hindi
+	  distinction now seems to be working. (Was order of two 'akhn'
+	  tables, one specialized for Sanskrit. Don't understand--thought
+	  always all matching tables were executed.)
+
+2012-01-20 01:41 +0000 [r1993]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: some clean-up,
+	  split the akhn table into general (modern Hindi) and Sanskrit.
+	  But not the Sanskrit doesn't activate in any environment, with
+	  lang='sa'. However, seems to work for Hindi.
+
+2012-01-19 16:00 +0000 [r1992]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: more tweeks to
+	  rakaar slash
+
+2012-01-19 15:30 +0000 [r1991]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: corrected simple
+	  Rakaar forms again
+
+2012-01-19 13:52 +0000 [r1990]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: corrected spacing
+	  problem with combining rakaar slash.
+
+2012-01-19 00:52 +0000 [r1989]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: fixed last
+	  consonant-virama-ra conjuncts
+
+2012-01-19 00:32 +0000 [r1988]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: fixed
+	  consonant-virama-consonant-virama conjuncts
+
+2012-01-19 00:04 +0000 [r1987]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: much done on tables
+	  for compound letters. a couple of compounds were corrected.
+
+2012-01-18 14:40 +0000 [r1986]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: Much messing with
+	  combined forms for vowels+rakh, finally got features going for
+	  distinction of Rakaar slash vs Rakaar below mark.
+
+2012-01-16 00:36 +0000 [r1985]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: more lookups
+	  working. Still a couple of letters wrong.
+
+2012-01-14 22:43 +0000 [r1984]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: with help of Z.
+	  Wagner, and a TeX cmap file making the connection betwen
+	  conjuncts in the Velthuis font and Unicode, inserted the Velthuis
+	  au auxiliary glyphs and made lookup tables Mostly working.
+
+2012-01-13 12:08 +0000 [r1983]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Devanagari: (sans) better names
+	  for a couple of characters, (serif) made names more like sans,
+	  added Kashmiri letters to complete Unicode 6.0 range
+
+2012-01-13 00:25 +0000 [r1982]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: PS: Added UniqueId TT
+	  Names: Added UniqueID Devanagari: (serif) added ABVM, BLWM tables
+	  and anchors Devanagari: (sans) small tweaks mostly regarding mark
+	  placement
+
+2012-01-10 17:17 +0000 [r1981]  Stevan_White:
+
+	* FreeSans.sfd: Devanagari: a couple of
+	  touch-ups: corrected 'abvs' entry for ausign-anusvera.
+
+2012-01-10 16:12 +0000 [r1980]  Stevan_White:
+
+	* FreeSans.sfd: Devanagari: re-named most
+	  auxiliary glyphs to make tables more sensible.
+
+2012-01-10 12:56 +0000 [r1979]  Stevan_White:
+
+	* FreeSans.sfd: Devanagari: simplified and
+	  regularized some glyph names
+
+2012-01-10 02:07 +0000 [r1978]  Stevan_White:
+
+	* FreeSans.sfd: Gurmukhi: tried to get marks
+	  under control. Added GPOS tables, anchors.
+
+2012-01-10 00:48 +0000 [r1977]  Stevan_White:
+
+	* FreeSans.sfd: Devanagari: copied a few
+	  ligatures that were in gargi but not in FreeSans. There are still
+	  a few more, but I'm not clear about them. Tables: moved auxiliary
+	  letters for Indic around a bit.
+
+2012-01-09 20:56 +0000 [r1976]  Stevan_White:
+
+	* FreeSans.sfd: Indic tables: rearranged
+	  Devanagari: re-named the GPOS anchors Lagin: iogonek lookup had
+	  gotten somehow fouled up
+
+2012-01-08 01:32 +0000 [r1975]  Stevan_White:
+
+	* FreeSerif.sfd: Devanagari: copied in rest of
+	  Unicode chars from velthuis font dvng10.pfb with advice from
+	  Zdeněk Wagner. Next plan: copy in ligatures from same file and
+	  use a cmap file provided by Zdeněk to construct a basic GSUB
+	  table.
+
+2012-01-08 00:25 +0000 [r1974]  Stevan_White:
+
+	* FreeSerif.sfd: Latin, Cyrillic: tweeks to
+	  accent marks. Devanagari: beginning to replace range with
+	  Velthuis font.
+
+2012-01-07 19:42 +0000 [r1973]  Stevan_White:
+
+	* FreeSans.sfd: Devanagari: widened space
+	  between verticals in U+0906 by request. Made a lot of references
+	  in range. Added Kashmiri letters from latest Unicode version.
+
+2012-01-03 20:17 +0000 [r1972]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Combining Diacritics:
+	  forgot to add Cyrillic mark for previous commit
+
+2012-01-03 20:08 +0000 [r1971]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Cyrillic: Added mark
+	  for diacriticals on capital letters. toward bug #35225: Combining
+	  Diacritical Marks improperly positioned for Cyrillic capital
+	  letters https://savannah.gnu.org/bugs/?35225 Latin: re-thought
+	  spacing in bold, bold oblique, and re-positioned many accents for
+	  legibility
+
+2011-12-31 20:09 +0000 [r1970]  Stevan_White:
+
+	* FreeSans.sfd: Miscellaneous Symbols: hammer
+	  and sickle, smileface, frown face, courtesy Sander van Geloven
+
+2011-12-28 14:05 +0000 [r1969]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Mathematical Operators:
+	  revision of v. and h. placement and spacing. Reduced height of
+	  partialdiff in some faces.
+
+2011-12-28 13:40 +0000 [r1968]  Stevan_White:
+
+	* FreeSerif.sfd: Mathematical Operators: lowered
+	  nabla, made partialdiff of normal height
+
+2011-12-25 13:54 +0000 [r1967]  Stevan_White:
+
+	* FreeSans.sfd: Miscellaneous Symbols: uni2639
+	  -- a (first) contribution by Sander van Geloven
+
+2011-12-25 13:37 +0000 [r1966]  Stevan_White:
+
+	* FreeSerif.sfd: Mathematical Operators:
+	  improved symbols having vertical lines
+
+2011-12-19 13:55 +0000 [r1965]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: General Punctuation:
+	  regularize width of bullet chars Geometrical Shapes: made new and
+	  regularized width of bullet chars Mathematical Operators: messed
+	  with bullet-lige operators
+
+2011-12-18 17:35 +0000 [r1964]  Stevan_White:
+
+	* FreeSerif.sfd: Mathematical Operators: fixed
+	  some spacing issues.
+
+2011-12-18 13:52 +0000 [r1963]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Latin, Punctuation:
+	  slash and some vertical lines were wrongly spaced.
+
+2011-12-17 01:39 +0000 [r1962]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Mathematical Operators: in
+	  sans, added some angle glyphs by request. General vertical
+	  metrecs: fixed some mistakes, re-thought overall.
+
+2011-12-16 12:17 +0000 [r1961]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Technical Symbols: made
+	  extensible mathematical symbol pieces for sans, adjusted
+	  horizontal bracket in serif.
+
+2011-12-16 00:10 +0000 [r1960]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Sans: glyphwise same
+	  vertical adjustments as with Serif, same caveats. All faces:
+	  re-thought metrics. Hope they make better sense now.
+
+2011-12-15 18:02 +0000 [r1959]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: General alterations to make
+	  fit in vertical bounds (-300,900). Problems remain in Sinhala and
+	  Malayalam. Esp. note two Bengali "vocalic" glyphs, used only for
+	  transcription of Sanskrit, were altered and moved.
+
+2011-12-14 22:31 +0000 [r1958]  Stevan_White:
+
+	* FreeSerif.sfd: Malayalam: some glyph clean-up
+
+2011-12-14 21:49 +0000 [r1957]  Stevan_White:
+
+	* FreeSerif.sfd: Changed ascent and descent of a
+	  number of letters out of bounds (several in Arabic, also
+	  Devnagari). The worst are in Malayalam though, and they remain.
+
+2011-12-14 15:59 +0000 [r1956]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Supplementary
+	  Punctuation: made a few new ones
+
+2011-12-12 20:52 +0000 [r1955]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Latin Extended-B:
+	  Same with tz ligature as in roman
+
+2011-12-12 18:42 +0000 [r1954]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin Extended-B:
+	  re-thought replacement for tz ligature in German. Note: the
+	  Unicode tz character is used in Mayanist texts.
+
+2011-12-11 23:25 +0000 [r1953]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Complete set of lowercse
+	  latin super/subscripts for normal and bold, with 'subs' and
+	  'sups' lookups.
+
+2011-12-11 20:59 +0000 [r1952]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: (roman) re-thought
+	  tz ligature Number Forms: adjusted vulgar fractions table, to
+	  make all work in xelatex
+
+2011-12-09 11:22 +0000 [r1951]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: avoid fi, fl etc
+	  ligatures in Turkish. Re-thought TZ, tz ligatures.
+
+2011-12-09 00:08 +0000 [r1950]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Proportional Numbers,
+	  Slashed Zero
+
+2011-12-08 23:57 +0000 [r1948-1949]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Greek: added digamma
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Serif faces: lots of work
+	  on numeric substitutions 'onum' Oldstyle Figures 'pnum'
+	  Proportional Numbers 'tnum' Tabular Numbers 'lnum' Lining Figures
+	  'zero' Slashed Zero Cyrillic for Bulgarian: activated new-style
+	  forms with 'ss01' Style Set 1 Cyrillic regular: Bit of kerning.
+	  (FontForge still complains about non-Unicode glyphs)
+
+2011-12-06 22:40 +0000 [r1947]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: More additions to 'sups'
+	  table in roman, bold. Added a few Phonetic Extensions to
+	  italic... but this should wait for a set of small caps.
+
+2011-12-06 21:47 +0000 [r1945-1946]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Changed Bulgarian lookup
+	  tag from cv00 to ss01 bold: adjusted some superscript letter
+	  spacings, minute, prime spacing normal: added proportional
+	  numerals, tables tnum, lnum, pnum adjusted widths of some
+	  superscript letters, tweeked some others added tables sups, subs
+
+	* FreeSans.sfd: Latin: some kerning
+
+2011-12-05 18:50 +0000 [r1944]  Stevan_White:
+
+	* FreeSansBold.sfd: Latin etc: re-spaced,
+	  re-kerned letter a
+
+2011-12-05 13:19 +0000 [r1943]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Cyrillic: tweeks to glyphs,
+	  spacing for alternate Bulgarian letters.
+
+2011-12-05 12:47 +0000 [r1942]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd: Cyrillic: kerning and spacing.
+
+2011-12-05 10:27 +0000 [r1941]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Cyrillic: more work on
+	  alternative letters for Bulgarian, Serbian
+
+2011-12-04 23:46 +0000 [r1939-1940]  Stevan_White:
+
+	* FreeSerif.sfd: Cyrillic: adjust spacing of
+	  some Bulgarin letters
+
+	* FreeSerifBold.sfd: Latin: bit o kerning
+
+2011-12-04 14:00 +0000 [r1938]  Stevan_White:
+
+	* FreeSerif.sfd: Cyrillic: expanded/corrected
+	  letters for Bulgarian alternate forms.
+
+2011-12-03 22:45 +0000 [r1937]  Stevan_White:
+
+	* FreeSerif.sfd: Cyrillic: alternative small
+	  letters for Bulgarian, with lookup table.
+
+2011-12-03 18:04 +0000 [r1936]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMonoBoldOblique.sfd: glyph clean-ups
+	  related to recent commits, toward validation
+
+2011-12-03 17:29 +0000 [r1935]  Stevan_White:
+
+	* FreeSansBoldOblique.sfd: Mathematical
+	  Operators: two were out of place
+
+2011-12-03 17:25 +0000 [r1934]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Arrows: made new
+	  ones, corrected others
+
+2011-12-03 15:48 +0000 [r1933]  Stevan_White:
+
+	* FreeSerif.sfd: Currency Symbols: added
+	  spesmilo
+
+2011-12-03 15:04 +0000 [r1932]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSerifBold.sfd: Arrows: lots of additions,
+	  corrections
+
+2011-12-03 13:32 +0000 [r1931]  Stevan_White:
+
+	* FreeSansOblique.sfd: Arrows: made glyphs so
+	  range is similar to rest of Sans.
+
+2011-12-03 12:59 +0000 [r1930]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Geometric Shapes:
+	  made minimal set. Mathematical Operators: made a few more glyphs,
+	  corrected a couple. Number Forms: deleted range in bold faces --
+	  can't properly represent all.
+
+2011-12-03 01:02 +0000 [r1929]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMonoOblique.sfd: Miscellaneous Technical
+	  Symbols: made a few important ones.
+
+2011-12-03 00:33 +0000 [r1928]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Mathematical
+	  Operators: made a few more glyphs. some clean-up.
+
+2011-12-02 19:12 +0000 [r1927]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Mathematical
+	  Operators: revised a few glyphs in medium, got a sort of minimal
+	  set into other styles
+
+2011-12-02 15:03 +0000 [r1926]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Mathematical
+	  Operators: made yet more.
+
+2011-12-02 13:57 +0000 [r1925]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Mathematical Operators:
+	  revised a few in medium (weight and spacing), made a lot of new
+	  characters for other styles.
+
+2011-12-02 10:53 +0000 [r1924]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Mathematical Operators
+	  (etc): more operators (bold), revisions (medium)
+
+2011-12-02 02:32 +0000 [r1923]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Mathematical Operators:
+	  tried to make of more uniform weight (medium) made several new
+	  (bold)
+
+2011-12-01 20:22 +0000 [r1921-1922]  Stevan_White:
+
+	* FreeSerif.sfd: Combining Half Marks: adjusted
+	  mark anchors
+
+	* FreeMono.sfd: Cyrillic: fix to old letter
+	  Arabic: hah_final made all contours- no refs
+
+2011-12-01 19:34 +0000 [r1919-1920]  Stevan_White:
+
+	* tools/generate/TrueType,
+	  tools/generate/OpenType,
+	  tools/generate/MacTT: vim-style file type comment
+
+	* tools/generate/buildutils.py: Version string to
+	  comply with OpenType recommendation.
+
+2011-12-01 18:37 +0000 [r1918]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Misc. Math. Symbols:
+	  made reverse logical not (req. for some MS codepages) Math.
+	  Operators: made a few while I was around
+
+2011-11-30 20:50 +0000 [r1917]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoOblique.sfd: Cyrillic: made uk letters
+	  digraph, due to complaint by user
+
+2011-11-30 13:20 +0000 [r1916]  Stevan_White:
+
+	* tools/report/OpenType/UnicodeRanges.py: Corrected
+	  Combining Half Marks
+
+2011-11-30 13:15 +0000 [r1915]  Stevan_White:
+
+	* FreeSerif.sfd: Combining Half Marks: made
+	  letters, filled range, added mark anchors
+
+2011-11-30 12:26 +0000 [r1914]  Stevan_White:
+
+	* Makefile: targets for woff packages
+
+2011-11-30 12:15 +0000 [r1913]  Stevan_White:
+
+	* README: Added lines on WOFF format.
+
+2011-11-30 12:05 +0000 [r1912]  Stevan_White:
+
+	* notes/webfont_guidelines.txt: added WOFF
+
+2011-11-28 11:41 +0000 [r1911]  Stevan_White:
+
+	* FreeSerif.sfd: Latin: some light kerning
+
+2011-11-28 00:17 +0000 [r1910]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Grid Fitting: made
+	  uniformly Version 1 ("Optimized for Cleartype" won't stay on in
+	  FontForge ?)
+
+2011-11-27 20:52 +0000 [r1909]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: general glyph alterations
+	  toward validation. some of these are due to some bug in FontForge
+	  algorithms -- nothing was apparently wrong with the glyphs.
+
+2011-11-27 00:34 +0000 [r1907-1908]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: some kerning
+
+	* sfd/Makefile,
+	  tools/test/checkGlyphNumbers.py: Made to function
+	  either from directory or from Makefile.
+
+2011-11-25 11:38 +0000 [r1906]  Stevan_White:
+
+	* FreeSerifBold.sfd: correction to 'ccmp' table
+	  for Vietnamese 2
+
+2011-11-25 11:29 +0000 [r1905]  Stevan_White:
+
+	* FreeSerif.sfd: Added some fractions to the
+	  'frac' lookup
+
+2011-11-25 11:17 +0000 [r1904]  Stevan_White:
+
+	* FreeSerif.sfd: corrected some entries in
+	  'frac' lookup
+
+2011-11-25 11:08 +0000 [r1903]  Stevan_White:
+
+	* FreeSerif.sfd: Number Forms: adjusted diagonal
+	  fractions Cyrillic: clean-up of Ksi contour
+
+2011-11-25 10:36 +0000 [r1901-1902]  Stevan_White:
+
+	* tools/report/kernclasses.py (added): Tabular
+	  report of kerning classes in fonts
+
+	* FreeSerifBoldItalic.sfd: Latin: named 2 glyphs
+	  referred to in kern tables
+
+2011-11-25 10:16 +0000 [r1900]  Stevan_White:
+
+	* tools/test/checkGlyphNumbers.py: corrected for
+	  directory move
+
+2011-11-24 18:35 +0000 [r1899]  Stevan_White:
+
+	* FreeSans.sfd: Cyrillic: made Ksi, ksi
+
+2011-11-24 17:58 +0000 [r1898]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Latin: for f and
+	  other hooked letters: special punctuation lookup
+
+2011-11-24 17:39 +0000 [r1896-1897]  Stevan_White:
+
+	* FreeSerif.sfd: General Punctuation: adjusted,
+	  regularized spacing of primes
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Latin: f and other
+	  hooked letters: put more of hook into kerning
+
+2011-11-24 16:51 +0000 [r1895]  Stevan_White:
+
+	* FreeSerif.sfd: Cyrillic: improve spacing of
+	  Ksi
+
+2011-11-24 15:05 +0000 [r1894]  Stevan_White:
+
+	* FreeSans.sfd: Cyrillic: Made some Old Church
+	  Slavonic letters, by request.
+
+2011-11-23 15:12 +0000 [r1893]  Stevan_White:
+
+	* FreeSans.sfd: Malayalam: glyph clean-up toward
+	  validation
+
+2011-11-23 01:19 +0000 [r1892]  Stevan_White:
+
+	* FreeSans.sfd: Malayalam conjuncts: numerous
+	  contour improvements toward validation
+
+2011-11-22 00:25 +0000 [r1890-1891]  Stevan_White:
+
+	* tools/utility/log2changelog_CVS.pl (removed): This
+	  is what I meant to do in the previous commit
+
+	* tools/utility/log2changelog.pl (removed),
+	  tools/utility/log2changelog_CVS.pl (added): No
+	  need for this script now the VC is changed to SVN; there are
+	  other tools for SVN that perform the same task.
+
+2011-11-21 19:01 +0000 [r1889]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: More individual glyph
+	  tweeks toward validation. (Discovered trigger to one FontForge
+	  bug: contour 1st node at sharp point.)
+
+2011-11-21 11:15 +0000 [r1888]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Overall glyph tweeks
+	  to improve FontForge validation. Note some of these can be called
+	  messy node problems, others are due to some malfunction of
+	  FontForge.
+
+2011-11-20 14:36 +0000 [r1887]  Stevan_White:
+
+	* ChangeLog: brought up to date
+
+2011-11-18 09:55 +0000 [r1886]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Unfortunately several
+	  unrelated changes got balled up in this commit. Generally, slight
+	  re-wording of license (program ->font) Serif, Sans: Latin, Greek,
+	  Cyrillic and phonetic: substantial changes to glyph bearings,
+	  attempt to normalize; re-did kerning angled slightly
+	  hungarianumlaut and double-grave accents toward one another.
+	  lcaron, dcaron, tcaron: prefer an acute accent to apostrophe.
+	  Note this messes up some letters d, l, t with acute, for
+	  languages using IPA. Serif: Cyrillic Ouk: fixed bug #34687: Bad
+	  shape of Cyrillic U+0478 & u+0479 Cyrillic Extended-A: increased
+	  hight of combining marks slightly (regular face only) Italic
+	  Cyrillic: re-did Serbian sha and te with longer line. Bengali,
+	  Tamil, Thai, Ethiopic, Georgian, Cyrillic Extended-B, Latin
+	  Extended-D, Arabic Presentation forms, Letterlike and
+	  Miscellaneous Math Symbols: glyph clean-ups longs: fixed bug
+	  #34841: U+017F LONG S upright a bit wrong Sans: acute, grave,
+	  hungarianumlaut and double-grave accents on capitals somewhat
+	  shorter to better fit in the line,
+
+2011-11-18 09:46 +0000 [r1885]  Stevan_White:
+
+	* FreeMono.sfd: Arabic: positional
+	  substitutions; added a couple of characters
+
+2011-11-12 14:48 +0000 [r1883-1884]  Stevan_White:
+
+	* sfd/Makefile: target for making WOFF files
+
+	* tools/generate/WOFF: removed one unused package
+	  better documentation
+
+2011-11-12 14:37 +0000 [r1882]  Stevan_White:
+
+	* tools/generate/WOFF: removed debug strings
+
+2011-11-12 14:34 +0000 [r1881]  Stevan_White:
+
+	* tools/generate/WOFF (added): Generator for Web
+	  Open Font Format files
+
+2011-11-05 16:43 +0000 [r1880]  Stevan_White:
+
+	* FreeMono.sfd: Arabic: addded three letters
+
+2011-11-05 15:06 +0000 [r1879]  Stevan_White:
+
+	* FreeMono.sfd: Arabic: Many incorrectly 0-width
+	  chars made full width. Implemented marks, mostly for vertical
+	  mark placement.
+
+2011-11-04 22:28 +0000 [r1878]  Stevan_White:
+
+	* FreeMono.sfd: Arabic: added several
+	  characters. nearing functionality of serif version.
+
+2011-11-04 14:55 +0000 [r1877]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: fixed several
+	  substitution and glyph problems. See discussion
+	  https://savannah.gnu.org/bugs/?34190
+
+2011-11-03 17:55 +0000 [r1876]  Stevan_White:
+
+	* FreeSerifBold.sfd: Arabic: improved meemfinal
+
+2011-11-03 16:07 +0000 [r1875]  Stevan_White:
+
+	* FreeSerif.sfd: Punctuation Suppl: a few
+	  additions. Geometrical Shapes, Math Suppl: mostly spacing.
+
+2011-11-03 13:18 +0000 [r1873-1874]  Stevan_White:
+
+	* tools/report/OpenType/UnicodeRanges.py: typo in
+	  doc
+
+	* FreeSerif.sfd: Removed excess entry for
+	  uni29b4.
+
+2011-11-03 12:55 +0000 [r1872]  Stevan_White:
+
+	* tools/report/OpenType/UnicodeRanges.py: Added to
+	  Supplemental Punctuation
+
+2011-11-03 12:15 +0000 [r1871]  Stevan_White:
+
+	* FreeSerif.sfd: Punctuation: named some glyphs,
+	  re-sized some spaces, added some Supplemental
+
+2011-11-03 09:48 +0000 [r1870]  Stevan_White:
+
+	* tools/utility/fontforge-interp.sh: more doc
+
+2011-11-03 01:40 +0000 [r1869]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Glyph clean-up, and change
+	  of problematic glyph names
+
+2011-11-03 01:21 +0000 [r1868]  Stevan_White:
+
+	* tools/test/validate.py: Better exception handling
+
+2011-11-03 01:09 +0000 [r1867]  Stevan_White:
+
+	* FreeSerifBold.sfd: Some glyph clean-up
+
+2011-11-03 00:59 +0000 [r1866]  Stevan_White:
+
+	* FreeSerif.sfd: Some glyph clean-up.
+
+2011-11-03 00:51 +0000 [r1862-1865]  Stevan_White:
+
+	* tools/utility/fontforge-interp.sh (added): Wrapper
+	  for fontforge.
+
+	* tools/test/findBackLayers.py,
+	  tools/test/validate.py,
+	  tools/test/checkGlyphNumbers.py,
+	  tools/test/isMonoMono.py: Call wrapper for
+	  fontforge rather than calling a specific instance.
+
+	* tools/generate/TrueType,
+	  tools/generate/OpenType,
+	  tools/generate/MacTT: Call wrapper for fontforge
+	  rather than calling specific instance
+
+	* tools/report/private_use.py,
+	  tools/report/range_report.py,
+	  tools/report/ligatureLookups.py: Use wrapper for
+	  fontforge rather than calling explicit instance.
+
+2011-11-03 00:45 +0000 [r1861]  Stevan_White:
+
+	* sfd/Makefile: Made to execute fontforge from any
+	  instance in PATH
+
+2011-11-02 18:32 +0000 [r1859-1860]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: named some glyphs
+
+	* FreeMono.sfd: Arabic: corrected slot for one
+	  letter.
+
+2011-11-02 00:56 +0000 [r1858]  Stevan_White:
+
+	* FreeMono.sfd: Arabic: most of intermediate
+	  forms with lookups: A and B. Some general contour cleanup.
+
+2011-10-31 22:12 +0000 [r1857]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Cyrillic: added
+	  'locl' lookup for Serbian/Macedonian 'be'
+
+2011-10-31 19:34 +0000 [r1855-1856]  Stevan_White:
+
+	* FreeSerif.sfd: Spacing Modifier Letters:
+	  horizontal space adjustments
+
+	* FreeSans.sfd: Latin, Diacritics, etc:
+	  hungarian umlaut, double grave adjustments
+
+2011-10-31 19:27 +0000 [r1854]  Stevan_White:
+
+	* FreeMono.sfd: Arabic: Drew most of main range.
+
+2011-10-31 17:22 +0000 [r1853]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Latin, Diacriticals, etc:
+	  adjustment on hungarian umlaut, double grave
+
+2011-10-30 16:25 +0000 [r1852]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: removed Arabic-only
+	  ligatures lookup, as it seems to confuse Pango.
+
+2011-10-30 12:51 +0000 [r1851]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: changed size of tatweel
+
+2011-10-30 11:07 +0000 [r1850]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Cyrillic: cursive
+	  Macedonian gje. See bug 34688.
+	  https://savannah.gnu.org/bugs/?34688
+
+2011-10-29 23:12 +0000 [r1849]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic Presentation Forms-B:
+	  adjustment to meem-final.
+
+2011-10-29 22:01 +0000 [r1848]  Stevan_White:
+
+	* FreeSerif.sfd: Spacing Modifier/Combining
+	  Diacritics: double-gramve and Hungarian umlaut, to make them less
+	  extremely wide and hard to accommodate. Made less steep, at
+	  slightly different angles, following advice at
+	  http://typophile.com/node/78623
+	  http://diacritics.typo.cz/index.php?id=24
+
+2011-10-29 18:53 +0000 [r1847]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: Re-worked final meem.
+	  Put Arabic-only ligatures in Arabic-only lookup. Put Allah in a
+	  'dlig' lookup. Made tatweel shorter.
+
+2011-10-29 12:09 +0000 [r1846]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: marked some ending
+	  ligatures as Arabic-language only, on advice from a Persan
+	  speaker (comments to bug #34190)
+
+2011-10-29 06:18 +0000 [r1845]  Stevan_White:
+
+	* FreeSerif.sfd: General Punctuation: made
+	  bullet-bullets same width as bullet
+
+2011-10-29 04:44 +0000 [r1844]  Stevan_White:
+
+	* FreeSerif.sfd: Punctuation, Geometric Shapes,
+	  Miscellaneous Symbols, etc.: regularize bullet-like characters
+	  somewhat in width and weight
+
+2011-10-28 23:51 +0000 [r1843]  Stevan_White:
+
+	* FreeSerifBold.sfd: Arabic Extended-A: Added 2
+	  ligatures
+
+2011-10-28 22:53 +0000 [r1842]  Stevan_White:
+
+	* FreeSans.sfd: Cyrillic Supplement: letters for
+	  Abkhaz and Azerbaijani, and Nivkh.
+
+2011-10-28 22:16 +0000 [r1841]  Stevan_White:
+
+	* FreeMono.sfd: Cyrillic Supplement: letters for
+	  Abkhaz and Azerbaijani
+
+2011-10-28 21:53 +0000 [r1840]  Stevan_White:
+
+	* FreeMono.sfd: Cyrillic: Added Nivkh letters
+
+2011-10-28 18:10 +0000 [r1839]  Stevan_White:
+
+	* tools/utility/special-purpose/makeBraille.py
+	  (added), tools/utility/special-purpose (added),
+	  tools/utility/makeBraille.py (removed):
+	  special-purpose directory for one-shot scripts, included as
+	  examples.
+
+2011-10-28 12:29 +0000 [r1838]  Stevan_White:
+
+	* FreeSansBold.sfd: Latin: small adjustment to
+	  letter spacing
+
+2011-10-28 11:50 +0000 [r1837]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: several lookup
+	  corrections thanks to Emmanuel Vallois, see comments to [bug
+	  #34190] Persian characters in FreeSerif not connecting right In
+	  bold, lots of re-namings to make lookups copied from roman work.
+
+2011-10-27 22:01 +0000 [r1836]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeMono.sfd: Latin (Vietnamese): adjusted
+	  some marks. Latin: SansBold attempts to regularize spacing.
+
+2011-10-27 16:34 +0000 [r1834-1835]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: kerning, a bit of
+	  letter spacing
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Latin: much messing
+	  with accents for Vietnamese, some kerning
+
+2011-10-26 22:42 +0000 [r1833]  Stevan_White:
+
+	* FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: efforts to limit
+	  height of accents: Making shorter glyphs for some accents for
+	  capital letters. Some compacting of taller stacked glyphs. Made
+	  all lowercase letters' accents fall in the bounds.
+
+2011-10-26 14:44 +0000 [r1832]  Stevan_White:
+
+	* FreeSerifBold.sfd: Combining Diacritics:
+	  adjustments for Serbian Cyrillic
+
+2011-10-26 14:36 +0000 [r1830-1831]  Stevan_White:
+
+	* FreeSans.sfd: Latin, General Punctuation:
+	  attempts to regularize widths and spaces
+
+	* FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Combinind
+	  Diacriticals: corrections to mark placement for Cyrillic Serbian
+
+2011-10-26 12:39 +0000 [r1829]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Latin: Replaced d-, l-, t-caron
+	  mark with one distinguishable from punctuation Sans: implemented
+	  shorter acute, grave, circumflex, caron for caps
+
+2011-10-26 10:20 +0000 [r1828]  Stevan_White:
+
+	* FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Cyrillic: adjusted
+	  mark anchors
+
+2011-10-26 02:16 +0000 [r1827]  Stevan_White:
+
+	* FreeSansBoldOblique.sfd: General Punctuation:
+	  got rid of minor build warning
+
+2011-10-26 02:13 +0000 [r1826]  Stevan_White:
+
+	* FreeMono.sfd: Greek: got rid of build warning
+
+2011-10-26 01:56 +0000 [r1825]  Stevan_White:
+
+	* FreeSerif.sfd: Punctuation, Spacing
+	  Diacritical Marks: worked on widths
+
+2011-10-25 21:28 +0000 [r1822-1824]  Stevan_White:
+
+	* tools/generate/TrueType,
+	  tools/generate/OpenType,
+	  tools/generate/buildutils.py,
+	  tools/generate/MacTT: Again trying to set keywords
+
+	* tools/generate/TrueType,
+	  tools/generate/OpenType,
+	  tools/generate/buildutils.py,
+	  tools/generate/MacTT: Added Date svn keyword
+
+	* tools/generate/TrueType,
+	  tools/generate/OpenType,
+	  tools/generate/buildutils.py,
+	  tools/generate/MacTT: Added Revision keyword
+
+2011-10-25 21:13 +0000 [r1821]  Stevan_White:
+
+	* tools/generate/TrueType,
+	  tools/generate/OpenType,
+	  tools/generate/buildutils.py (added),
+	  tools/generate/MacTT: Implemented cleaned-up
+	  Revision string
+
+2011-10-25 20:10 +0000 [r1820]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Cyrillic: added marks for
+	  Serbian; adjusted others
+
+2011-10-25 19:19 +0000 [r1819]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Cyrillic: added marks
+	  for Serbian to roman, added mark positioning to non-roman
+
+2011-10-25 19:02 +0000 [r1818]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd: Adjusted the font family
+	  class. some kerning adjusted some marks.
+
+2011-10-25 18:42 +0000 [r1817]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Spacing
+	  Modifiers/Diacritics: regularized spacing some
+
+2011-10-25 14:42 +0000 [r1816]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Latin: shifted grave and
+	  acute accents so they could be used independently. Lots more
+	  kerning, More adjustment of extreme characters.
+
+2011-10-24 20:16 +0000 [r1815]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Cyrillic: for Serbian
+	  'salt' form for italic 'sha' with line below
+
+2011-10-24 15:02 +0000 [r1814]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Cyrillic: removed lookup
+	  for supposed Serbian gje, leaving only the Macedonian form.
+
+2011-10-23 12:06 +0000 [r1812-1813]  Stevan_White:
+
+	* FreeSerif.sfd: Latin, IPA: kerning
+
+	* FreeSerifItalic.sfd: Latin, IPA: horizontal
+	  positioning, kerning Greek, extended: re-positioning of all marks
+
+2011-10-22 18:24 +0000 [r1811]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Cyrillic: re-kerned a bit
+
+2011-10-21 22:53 +0000 [r1810]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Greek, Cyrillic: working
+	  on fallout from re-spacing of Latin
+
+2011-10-21 20:18 +0000 [r1809]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Latin: kerning
+
+2011-10-20 17:13 +0000 [r1808]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd: Greek, Cyrillic: made Phi,
+	  Ef more distinct, made some overwide glyphs narrower
+
+2011-10-20 16:44 +0000 [r1806-1807]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Latin: starting to mess
+	  with spacing of extreme letters: f g j y
+
+	* FreeMono.sfd: Greek, Cyrillic: make Phi, Ef
+	  more distinct
+
+2011-10-19 17:24 +0000 [r1805]  Stevan_White:
+
+	* FreeSerif.sfd: Diacriticals: corrected
+	  acutecmb placement
+
+2011-10-19 14:56 +0000 [r1804]  Stevan_White:
+
+	* FreeSerif.sfd: Latin/IPA: Reduced size of
+	  hooks on many letters. Reduced spacing of grave, acute (big
+	  overhaul). kerning in IPA for African, Americanist alphabets
+
+2011-10-18 23:35 +0000 [r1802-1803]  Stevan_White:
+
+	* notes/webfont_guidelines.txt: Propset id
+
+	* notes/webfont_guidelines.txt: formatting, propset
+	  ID
+
+2011-10-18 23:19 +0000 [r1801]  Stevan_White:
+
+	* notes/README-downloads.txt,
+	  notes/webfont_guidelines.txt (added),
+	  notes/features.txt: updates added webfont
+	  guidelines
+
+2011-10-18 22:22 +0000 [r1800]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: more fiddling with
+	  kerning. Fixed longstanding bug with "equals" (had mysterious
+	  mkmk anchors)
+
+2011-10-18 00:03 +0000 [r1799]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: more fiddling with
+	  kerning
+
+2011-10-17 23:36 +0000 [r1798]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: More with j and f.
+	  Got rid of small caps kerning, which didn't make much sense
+	  anyway. Tried to space small caps letters a bit better.
+
+2011-10-17 19:13 +0000 [r1797]  Stevan_White:
+
+	* FreeSerif.sfd: Latin: a bit experimental: got
+	  rid of overlap of tails on f and j, compensating with kerning.
+	  More kerning. Increased width of quotesingle.
+
+2011-10-17 18:10 +0000 [r1796]  Stevan_White:
+
+	* FreeSerif.sfd: Latin kerning: added letters to
+	  classes. Have not yet done Latin Extended Additional
+
+2011-10-17 12:40 +0000 [r1795]  Stevan_White:
+
+	* FreeSerifBold.sfd: Latin: kerning re-done
+
+2011-10-15 18:28 +0000 [r1794]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd: Latin: more adjustments to
+	  spacing, and re-introduced kerning, completely re-done since the
+	  disappearance of the tables. Improvement all around.
+
+2011-10-15 15:28 +0000 [r1793]  Stevan_White:
+
+	* FreeSerif.sfd: Latin, Greek, Cyrillic: changes
+	  to L and R bearings to most characters.
+
+2011-10-15 12:01 +0000 [r1792]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Latin, Cyrillic: spacing
+	  of a couple of letters
+
+2011-10-15 11:24 +0000 [r1791]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Latin, Cyrillic:
+	  spacing and kerning of a few letters
+
+2011-10-15 09:38 +0000 [r1790]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Cyrillic: some kerning,
+	  esp. of Serbian letters
+
+2011-10-15 01:40 +0000 [r1789]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Cyrillic: adjusted
+	  boundaries of alternate te
+
+2011-10-14 11:59 +0000 [r1788]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerifBold.sfd: Cyrillic: Made
+	  Serb/Macedonian 'be' and lookups for it
+
+2011-10-13 11:20 +0000 [r1787]  Stevan_White:
+
+	* FreeSans.sfd: Latin, Greek, Cyrillic: attempt
+	  to make capitals with straight sides spaced even Some clean-up of
+	  Greek letterforms
+
+2011-10-13 10:18 +0000 [r1786]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd: Cyrillic: made special 'be' for
+	  Serbian/Macedonian lookup for gje for italic
+
+2011-10-12 22:29 +0000 [r1785]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd: Cyrillic: more tweeks
+	  to Serbian Cyrillic glyphs and similar, re-named Cyrillic
+	  auxiliary glyphs.
+
+2011-10-12 18:40 +0000 [r1784]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Cyrillic: Lookups for
+	  localized forms for Serbian/Macedonian. Remedies bug #34537:
+	  Serbian Localized Glyphs https://savannah.gnu.org/bugs/?34537
+	  Most look-ups were for existing glyphs. In italic also made glyph
+	  for te, like a rotated m with macron. Re-named cyrillic auxiliary
+	  glyphs.
+
+2011-10-12 12:31 +0000 [r1783]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin, Diacriticals:
+	  adjustments for Kwak̕wala
+
+2011-10-11 20:48 +0000 [r1782]  Stevan_White:
+
+	* CREDITS: to myself, for Old Italic
+
+2011-10-11 17:55 +0000 [r1781]  Stevan_White:
+
+	* tools/report/OpenType/UnicodeRanges.py: Update for
+	  Old Italic
+
+2011-10-11 17:00 +0000 [r1780]  Stevan_White:
+
+	* FreeMono.sfd: Old Italic: I made letters for
+	  this alphabet based on bits of existing ones.
+
+2011-10-11 09:55 +0000 [r1779]  Stevan_White:
+
+	* FreeSerif.sfd: IPA: adjustment to kerning,
+	  named a few marked letters
+
+2011-10-11 09:45 +0000 [r1778]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd: Phonetic Extensions:
+	  additions for Saanich/Musqueam
+
+2011-10-11 09:40 +0000 [r1777]  Stevan_White:
+
+	* FreeMono.sfd: Runic: completely re-did range,
+	  to make stem width like rest of font. (ends are still square or
+	  angular rather than round...) Consulted many inscriptions, and
+	  changed form where seemed appropriate.
+
+2011-10-09 15:26 +0000 [r1776]  Stevan_White:
+
+	* FreeSerif.sfd: Kerning of IPA symbols for
+	  Saanich/Musqueam
+
+2011-10-09 14:03 +0000 [r1775]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Latin, IPA
+	  Extensions, Diacriticals: toward Sannich/Musqueam
+
+2011-10-09 10:52 +0000 [r1774]  Stevan_White:
+
+	* notes/maintenance.txt: about adding binaries to
+	  cvs for web pages
+
+2011-10-08 22:48 +0000 [r1773]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin/IPA: further tweeks
+	  to letter forms
+
+2011-10-08 19:36 +0000 [r1772]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin, Phonetic symbols,
+	  Diacriticals: tweeks for Musqueam/Saanich
+
+2011-10-08 17:33 +0000 [r1771]  Stevan_White:
+
+	* FreeSans.sfd: couple of validation issues
+
+2011-10-08 16:47 +0000 [r1770]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin, Combining Marks,
+	  IPA: lots of changes for Saanich/Musqueam.
+
+2011-10-08 01:28 +0000 [r1769]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd: Latin/IPA: tweeks for
+	  Saanich/Musqueam
+
+2011-10-07 12:13 +0000 [r1768]  Stevan_White:
+
+	* FreeSerif.sfd: Latin and IPA, Phonetic
+	  Extensions: For display of Saanich language, 1) made for
+	  combining right comma on small Latin, some IPA letters, and on
+	  the c-hacek. 2) made ligatures for d, l, and t combined with
+	  U+0313, 3) Adjusted the widths of some of the IPA letters.
+
+2011-09-30 23:31 +0000 [r1767]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: more kerning,
+	  re-think letter ae
+
+2011-09-30 19:50 +0000 [r1766]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerifBold.sfd: Basic Latin: emboldened
+	  commercial at sign, to remedy bug #23574: Serif Bold: some
+	  symbols not bold https://savannah.gnu.org/bugs/index.php?23574
+
+2011-09-30 18:59 +0000 [r1765]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSerif.sfd: Bengali: made a Ganda mark, to
+	  remedy bug #33983: Bengali Ganda mark is missing
+	  https://savannah.gnu.org/bugs/index.php?33983
+
+2011-09-30 18:17 +0000 [r1764]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: more work on
+	  connecting letters. Re-thought tatween.
+
+2011-09-30 13:00 +0000 [r1763]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: un-linking more
+	  auxiliary dependencies. Re-thought 'v' decoration. Hebrew: dagesh
+	  was a little small in bold.
+
+2011-09-29 22:39 +0000 [r1762]  Stevan_White:
+
+	* FreeSerifBold.sfd: Arabic: removed more
+	  unnecessary auxiliary references
+
+2011-09-29 20:59 +0000 [r1761]  Stevan_White:
+
+	* FreeSerifBold.sfd: Arabic: emboldended the
+	  last of the letters (I hope) un-linked some auxiliaries that were
+	  represented by unicode
+
+2011-09-29 13:37 +0000 [r1760]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: alterations to
+	  kaf/keheh, kerning to improve spacing
+
+2011-09-29 10:43 +0000 [r1759]  Stevan_White:
+
+	* FreeSerifBold.sfd: Arabic: lots of alterations
+	  to letter shapes, spacing
+
+2011-09-28 23:03 +0000 [r1758]  Stevan_White:
+
+	* FreeSerifBold.sfd: Arabic: moved a lot of
+	  improvements from roman to bold
+
+2011-09-28 14:13 +0000 [r1757]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: reduced awful space on
+	  left side of free-standing letters
+
+2011-09-28 00:10 +0000 [r1756]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: regularized alef
+	  variants, maddah, etc.
+
+2011-09-27 20:47 +0000 [r1755]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: More ligatures, a
+	  couple alternative parentheses, re-worked hah medial
+
+2011-09-27 09:11 +0000 [r1754]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added a few ligatures,
+	  re-thought jeem medial, touched up some other letters
+
+2011-09-26 15:28 +0000 [r1753]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: more small stem width
+	  adjustments
+
+2011-09-26 14:51 +0000 [r1752]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: kerning was in wrong
+	  direction.
+
+2011-09-26 13:01 +0000 [r1751]  Stevan_White:
+
+	* tools/report/range_report.py,
+	  tools/report/OpenType/UnicodeRanges.py: updated
+	  copyright
+
+2011-09-26 07:06 +0000 [r1750]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: trying to regularize
+	  stem widths
+
+2011-09-25 22:33 +0000 [r1749]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: more adjustment,
+	  kerning
+
+2011-09-25 15:45 +0000 [r1748]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: more tweeks to shapes,
+	  kerning
+
+2011-09-25 15:16 +0000 [r1747]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: tweeks to letter
+	  shapes, spacing, mark placement
+
+2011-09-25 01:13 +0000 [r1746]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: shape adjustments to
+	  dal and noon
+
+2011-09-24 14:58 +0000 [r1745]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: further adjustment of
+	  letter shapes, dot placement
+
+2011-09-22 21:28 +0000 [r1744]  Stevan_White:
+
+	* CREDITS: Credit to Tim Erickson for Syriac glyphs.
+	  Marked many links as being broken with FIXMEs
+
+2011-09-22 20:48 +0000 [r1743]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Thaana: made bold version,
+	  adjusted spacing
+
+2011-09-22 20:41 +0000 [r1742]  Stevan_White:
+
+	* FreeSerif.sfd: Thaana: made new character from
+	  parts
+
+2011-09-22 20:28 +0000 [r1741]  Stevan_White:
+
+	* tools/report/OpenType/UnicodeRanges.py: correct
+	  Runic
+
+2011-09-22 18:54 +0000 [r1740]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Arabic: numerous tweeks to
+	  letter shapes. In roman, some more kerning
+
+2011-09-22 18:16 +0000 [r1739]  Stevan_White:
+
+	* FreeSans.sfd: Syriac: filled in some missing
+	  Unicode using Tim Erikson's Carlo Ator font (by his written
+	  permission!)
+
+2011-09-21 10:13 +0000 [r1738]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: fixed lam-alef ligature
+	  (again) (I think) Made most dots of uniform size adjusted height
+	  of final, isolated hah started on a kerning table
+
+2011-09-20 17:52 +0000 [r1737]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: made a few more
+	  low-numbered glypys, to finish off the range.
+
+2011-09-20 12:47 +0000 [r1736]  Stevan_White:
+
+	* tools/report/OpenType/OpenType.py (removed),
+	  tools/report/range_report.py,
+	  tools/report/ranges (removed),
+	  tools/report/OpenType/UnicodeRanges.py (added),
+	  tools/report/OpenType (added): Better naming of
+	  packages
+
+2011-09-19 23:23 +0000 [r1735]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added some low-numbered
+	  characters: Subtending marks, Arabic ray, Poetic marks
+
+2011-09-19 17:54 +0000 [r1734]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: drew some more Koranic
+	  annotations. re-thought sizing and placement of some others
+
+2011-09-19 13:55 +0000 [r1733]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: raised letter noon more
+	  attempts to regularize placement of marks
+
+2011-09-18 21:22 +0000 [r1732]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: many adjustments,
+	  mostly of marks
+
+2011-09-18 14:30 +0000 [r1731]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: adjusted marks, added
+	  anchor points for new marks, made a couple of new letters got
+	  ligatures working again replaced Allah and Rial ligatures
+
+2011-09-17 18:51 +0000 [r1730]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: mostly messing with
+	  marks: shadda combinations seem to be working.
+
+2011-09-16 19:45 +0000 [r1729]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: corrected some
+	  diacriticals in Presentation Forms-B especially FBBC-FBC1 were
+	  messed up, unfortunately so were a lot of references to those
+
+2011-09-16 18:36 +0000 [r1728]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: small spacing issues,
+	  tweeks to shapes of medial letters
+
+2011-09-16 17:56 +0000 [r1727]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: re-did several
+	  combining forms (which I think I drew myself) added some
+	  diacriticals to main range and finished Presentation Forms-B
+
+2011-09-16 13:54 +0000 [r1726]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: more fussing with marks
+
+2011-09-16 13:35 +0000 [r1725]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: more fiddling with
+	  marks
+
+2011-09-16 13:23 +0000 [r1724]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: much fussing with mark
+	  placement. horizontal spacing of waw
+
+2011-09-16 12:07 +0000 [r1723]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added mark positioning.
+	  will need to re-think some of the marks.
+
+2011-09-16 10:18 +0000 [r1722]  Stevan_White:
+
+	* notes/maintenance.txt: Changed some CVS info to
+	  SVN info. Still need to test and describe tagging in SVN.
+
+2011-09-16 09:42 +0000 [r1721]  Stevan_White:
+
+	* README: Replaced list of character sets with
+	  character ranges, which makes more sense at this time.
+
+2011-09-15 23:22 +0000 [r1720]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: big experiment
+	  adjusting baselines of many of the deeper characters. from
+	  looking at "Arabic Calligraphy, Nash script for beginners". Also
+	  shortened reh.
+
+2011-09-15 21:32 +0000 [r1719]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: a couple more
+	  positional forms, a couple of lookups
+
+2011-09-15 19:22 +0000 [r1718]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeSerif.sfd: Arabic Supplement: populated
+
+2011-09-15 14:12 +0000 [r1717]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: much concern over
+	  proper old Arabic kah U+0643 vs the more modern "Persian" keheh
+	  U+06a9. Fiddling with hamzas.
+
+2011-09-15 11:53 +0000 [r1716]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added a few obsolete or
+	  unexplained characters. much adjustment of combining marks and
+	  dots for better consistency.
+
+2011-09-14 23:24 +0000 [r1715]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: much fiddling with
+	  medial forms, a bit with lookups (seems ligatures are failing
+	  altogether)
+
+2011-09-14 19:40 +0000 [r1714]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added 2 radical signs
+	  Seems the digits in Arabic have been all along the Indo-Persian
+	  forms. Now there is a separate range for those. So I movde the
+	  old letters, and drew new Arabic versions of those that differed.
+
+2011-09-14 17:26 +0000 [r1713]  Stevan_White:
+
+	* tools/report/ranges/OpenType.py: Brought Arabic up
+	  to date
+
+2011-09-14 09:37 +0000 [r1712]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: further clean-up; made
+	  swash kaf to connect as initial form
+
+2011-09-14 08:52 +0000 [r1711]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: further cleanup, added
+	  pedagogical symbols (dots, etc)
+
+2011-09-14 01:04 +0000 [r1710]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added letters for Malay
+	  Big clean-up of glyphs. Still to do one section of presentation
+	  forms.
+
+2011-09-13 20:46 +0000 [r1709]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: made letters for
+	  Parkari. Added lookups init, fina, medi for letters with forms
+	  that vary in the font.
+
+2011-09-13 19:43 +0000 [r1708]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: made main Arabic area
+	  characters and presentation forms for Uighur, Kazakh, Kirghiz,
+	  Sindhi, and Lahnda, as well as the kaf swash
+
+2011-09-13 19:40 +0000 [r1707]  Stevan_White:
+
+	* tools/report/range_report.py: corrected font paths
+
+2011-09-13 18:10 +0000 [r1706]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added more presentation
+	  forms mostly for Urdu and Sindhi
+
+2011-09-13 13:34 +0000 [r1705]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: made some presentation
+	  forms for Urdu
+
+2011-09-13 11:05 +0000 [r1704]  Stevan_White:
+
+	* tools/utility/hex_range.py: doc
+
+2011-09-13 09:37 +0000 [r1703]  Stevan_White:
+
+	* tools/ranges.py (removed),
+	  tools/report/range_report.py (added),
+	  tools/report/ranges (added),
+	  tools/range_report.py (removed),
+	  tools/ranges (removed): rearrangement, got rid of
+	  duplicate script
+
+2011-09-13 09:29 +0000 [r1702]  Stevan_White:
+
+	* tools/ranges/OpenType.py: documented, removed
+	  copied text
+
+2011-09-13 09:20 +0000 [r1701]  Stevan_White:
+
+	* tools/freefont-ttf.spec (removed),
+	  tools/utility/freefont-ttf.spec (added):
+	  Rearranged, added a little doc
+
+2011-09-13 09:15 +0000 [r1700]  Stevan_White:
+
+	* tools/OS2UnicodeRange (removed),
+	  tools/KerningNumerals.pl (removed),
+	  tools/utility/KerningNumerals.pl (added),
+	  tools/report/OS2UnicodeRange (added): Rearranged
+	  some old utilities. Put in some doc of who wrote what.
+
+2011-09-12 23:37 +0000 [r1699]  Stevan_White:
+
+	* tools/script-menu (added),
+	  tools/hex_range.py (removed),
+	  tools/report/private_use.py (added),
+	  tools/utility/log2changelog.pl (added),
+	  tools/script-menu/nameBySlot.py (added),
+	  tools/utility/hex_range.py (added),
+	  tools/script-menu/unnameBySlot.py (added),
+	  tools/utility/makeBraille.py (added),
+	  tools/utility (added),
+	  tools/nameBySlot.py (removed): Added some scripts,
+	  reorganized
+
+2011-09-12 22:12 +0000 [r1698]  Stevan_White:
+
+	* tools/ranges/OpenType.py: Brought a few ranges up
+	  to date
+
+2011-09-12 22:06 +0000 [r1697]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic, etc: Added a lot of
+	  letters, mostly following existing patterns. Especially a lot of
+	  combinations for Urdu, Sindhi, Pashto, Kazakh, Kurdish, Kirghiz,
+	  Turkic, Uighur Berber, Maghrib Arabic, Tunisian Arabic, Moroccan
+	  Arabic, Not all forms are there yet. Very few lookups were
+	  added...this has to be done too.
+
+2011-09-12 15:13 +0000 [r1696]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added some Urdu letters
+	  (drawn by myself, with apologies)
+
+2011-09-12 13:07 +0000 [r1695]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added keheh and
+	  presentation forms, added lookup entries for them.
+
+2011-09-12 12:25 +0000 [r1694]  Stevan_White:
+
+	* tools/test/findBackLayers.py (added),
+	  sfd/Makefile,
+	  tools/test/MES-Conformance (added),
+	  tools/test/MES-Conformance/CheckConformance.pl,
+	  tools/test/validate.py (added),
+	  tools/generate/MacTT (added),
+	  tools/findBackLayers.py (removed),
+	  tools/test/MES-Conformance/WGL4.lst,
+	  tools/report (added),
+	  tools/generate/TrueType (added),
+	  tools/MES-Conformance (removed),
+	  FreeSansOblique.sfd, tools/test
+	  (added), tools/ligatureLookups.py (removed),
+	  tools/validate.py (removed),
+	  FreeMonoOblique.sfd,
+	  FreeSerifItalic.sfd,
+	  tools/hex_range.py,
+	  FreeSerifBoldItalic.sfd,
+	  tools/generate (added),
+	  tools/test/MES-Conformance/MES-1.txt,
+	  tools/report/ligatureLookups.py (added),
+	  tools/test/MES-Conformance/MES-2.txt,
+	  tools/GenerateTrueType (removed),
+	  tools/freefont-ttf.spec,
+	  tools/generate/OpenType (added),
+	  FreeSansBold.sfd,
+	  tools/test/MES-Conformance/MES-3B.txt,
+	  FreeMono.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBold.sfd,
+	  tools/test/isMonoMono.py (added),
+	  tools/checkGlyphNumbers.py (removed),
+	  tools/ranges/__init__.py,
+	  tools/ranges/OpenType.py,
+	  tools/GenerateOpenType (removed),
+	  tools/KerningNumerals.pl,
+	  tools/test/MES-Conformance/MES-1.lst,
+	  FreeSansBoldOblique.sfd,
+	  tools/test/MES-Conformance/MES-2.lst,
+	  tools/test/MES-Conformance/mes-list-expand.pl,
+	  tools/test/MES-Conformance/MES-3B.lst,
+	  FreeMonoBoldOblique.sfd,
+	  tools/GenerateMacTT (removed),
+	  tools/test/checkGlyphNumbers.py (added),
+	  tools/isMonoMono.py (removed): Rearranged tools/
+	  directory. Made paths in sfd/Makefile agree with changes.
+
+2011-09-12 12:10 +0000 [r1693]  Stevan_White:
+
+	* FreeSerif.sfd: Latin Extended-B: adjusted
+	  Hungarian umlauts Dingbats: drew several characters to fill out
+	  range for Unicode 6
+
+2011-09-12 11:40 +0000 [r1692]  Stevan_White:
+
+	* FreeSans.sfd: Osmanya: corrected Unicode
+	  values Letterlike symbols: added one, made some references
+
+2011-09-02 12:07 +0000 [r1691]  Stevan_White:
+
+	* FreeSans.sfd, FreeMono.sfd,
+	  FreeSerif.sfd: Control Pictures: U+2404 and
+	  U+2405 glyphs are reversed. This is due to the icons for them in
+	  FontForge being also reversed. in response to
+	  http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=632746
+
+2011-09-02 01:15 +0000 [r1690]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: (really Persian) lookup
+	  tables added init, medi, fina lookups peh, tcheh, gaf and fina
+	  lookup for jeh In response to ubuntu bug report
+	  https://bugs.launchpad.net/ubuntu/+source/ttf-freefont/+bug/730770
+	  Not sure if this completely resolves the issue.
+
+2011-08-31 18:16 +0000 [r1689]  Stevan_White:
+
+	* FreeSerif.sfd: Letterlike Symbols: added a
+	  few, made better use of small caps for others
+
+2011-08-31 17:24 +0000 [r1688]  Stevan_White:
+
+	* tools/ranges/OpenType.py: mostly revised some
+	  comments
+
+2011-08-31 17:19 +0000 [r1687]  Stevan_White:
+
+	* FreeSerif.sfd: Miscellaneous Technical:
+	  several additions Supplemental Punctuation: several additions
+
+2011-08-29 23:44 +0000 [r1686]  Stevan_White:
+
+	* tools/ranges/OpenType.py: typos
+
+2011-08-27 20:23 +0000 [r1685]  Stevan_White:
+
+	* FreeSans.sfd: Osmanya: resolves bug #34155:
+	  FreeSans: Osmanya digits shifted two code positions
+	  https://savannah.gnu.org/bugs/index.php?34155
+
+2011-08-27 20:08 +0000 [r1684]  Stevan_White:
+
+	* FreeSans.sfd: Greek: added lunate letters
+
+2011-08-24 21:40 +0000 [r1683]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Mathematical Operators: added a
+	  few in sans, named a few in serif
+
+2011-08-24 11:30 +0000 [r1682]  Stevan_White:
+
+	* FreeSerifBold.sfd: Phonetic Extensions: more
+
+2011-08-24 10:11 +0000 [r1681]  Stevan_White:
+
+	* FreeSerifBold.sfd: Public Use: script-size
+	  latin Sup-sub: implemented with script-size letters Phonetic
+	  Extensions: filled in many of them
+
+2011-08-24 01:09 +0000 [r1680]  daniel_j:
+
+	* FreeSans.sfd: Added U+1400. Fixes bug #34008
+
+2011-08-17 20:05 +0000 [r1679]  Stevan_White:
+
+	* FreeSerifItalic.sfd: named a few characters
+
+2011-08-14 08:55 +0000 [r1677-1678]  Stevan_White:
+
+	* tools/ranges/OpenType.py: some changes to Latin
+	  Extended ranges
+
+	* tools/ranges/OpenType.py: added point for Bengali
+	  gandha mark
+
+2011-08-13 23:15 +0000 [r1676]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoBoldOblique.sfd: Currency Symbols:
+	  added a few more
+
+2011-08-13 19:53 +0000 [r1675]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Currency Symbols:
+	  added several
+
+2011-08-13 14:10 +0000 [r1674]  Stevan_White:
+
+	* FreeSans.sfd, FreeMono.sfd,
+	  FreeSerif.sfd: Control Pictures: filled out
+	  range
+
+2011-08-12 08:59 +0000 [r1673]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Specials: filled out
+	  range
+
+2011-08-12 08:21 +0000 [r1672]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoOblique.sfd: Cyrillic, Extensions:
+	  added a few archaic letters, messed with accents
+
+2011-08-10 22:13 +0000 [r1671]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Super/Subscripts (mono and
+	  serif roman) re-design of super numerals. Phonetic ranges:
+	  fiddled a lot with superscript letters. Cyrillic: adjusted some
+	  marks especially on antiquated letters.
+
+2011-08-05 16:52 +0000 [r1670]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSerif.sfd: Phonetic Extensions: some
+	  tweeks to small caps letters Subscripts and superscripts: tweeks
+
+2011-08-04 21:27 +0000 [r1669]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: superscripts,
+	  subscripts, diagonal fractions: all faces Re-thought and
+	  regularized positioning, fixed a few bugs. All the "superior"
+	  numerals and a few superscript latin letters got positioned so
+	  they go over the em height. Latin ordinals are positioned
+	  parallel to em height, and now both a and o are underlined in all
+	  faces. Diagonal fractions are likewise regularized.
+
+2011-07-31 13:42 +0000 [r1668]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: General Punctuation: remedy
+	  bug #33905: NARROW NO-BREAK SPACE too wide In one face u+202F was
+	  zero width, in others much too wide. Also: set both it and
+	  thinspace to 1/6 em.
+
+2011-07-23 21:38 +0000 [r1667]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: further simplification
+	  of ccmp tables
+
+2011-07-23 09:58 +0000 [r1666]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Latin: Better optical
+	  centering of j
+
+2011-07-22 20:25 +0000 [r1665]  Stevan_White:
+
+	* FreeSerif.sfd: Indic ranges, mostly Sinhala:
+	  attempts to get it working in Windows. Problem: some of the
+	  ligature lookups map to things that by themselves could not
+	  render properly. e, o and O vowels around consonents, especially.
+	  Seems layout engine in Linux is responsible for making it work in
+	  the past... Cleaned up some lookups. In other ranges, added
+	  script ranges for MS "new layout engine", e.g. dev2, bng2. Note:
+	  Malayalam is mlm2, not mly2 as in Fontforge.
+
+2011-07-18 20:45 +0000 [r1664]  Stevan_White:
+
+	* FreeSerif.sfd: Greek: filled out range for
+	  Unicode 6 special mark lookups for Greek re-named some characters
+
+2011-07-18 19:02 +0000 [r1663]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSansBold.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Made more to validate
+	  Corrected one more wrong unicode in small caps
+
+2011-07-18 18:11 +0000 [r1662]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd: Private Use:
+	  corrected small caps unicode SansBoldOblique: made to validate
+
+2011-07-18 17:58 +0000 [r1661]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Cyrillic Extended: finished
+	  4 new letters (normal face) Combining Diacritical Marks: lots of
+	  small tweeks. Latin: fiddled with a few accent marks Private Use:
+	  small caps glyphs corrected unicode Added missing single-digit
+	  diagonal fractions, with lookups Added lookup to remove longs
+	  from end of words. Still isn't right.
+
+2011-07-16 11:24 +0000 [r1660]  Stevan_White:
+
+	* notes/features.txt (added): Initial document about
+	  OpenType features used in FreeFont.
+
+2011-07-16 11:12 +0000 [r1659]  Stevan_White:
+
+	* FreeSerif.sfd: Non-unicode vulgar fractions
+	  (2/7, 5/9, etc) with 'frac' table entries
+
+2011-07-16 10:28 +0000 [r1658]  Stevan_White:
+
+	* FreeSans.sfd, FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Added glyph for zeroslash,
+	  and lookup 'zero' for it. Mono: added 'frac' lookup.
+
+2011-07-16 09:45 +0000 [r1657]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Correction to ccmp table
+	  for iogonek
+
+2011-07-16 08:38 +0000 [r1656]  Stevan_White:
+
+	* notes/maintenance.txt: put a title on it, a little
+	  re-wording of new paragraphs
+
+2011-07-16 08:33 +0000 [r1655]  Stevan_White:
+
+	* notes/maintenance.txt: Added section on doing
+	  tests.
+
+2011-07-15 12:34 +0000 [r1654]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Serif: Made the diacritical
+	  lookups previously reserved for Latin to be generic, removed
+	  special marks lookup for Greek/Coptic, use instead generic one.
+	  Added a couple of new letters to Latin Extended-D Bold: Fiddling
+	  with diactitics and marks. Something has gone very wrong with the
+	  lookups... still not clear what.
+
+2011-07-13 09:20 +0000 [r1653]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Combining Diacritical
+	  Marks: a bugfix and a few positioning tweeks
+
+2011-07-12 14:24 +0000 [r1652]  Stevan_White:
+
+	* FreeSans.sfd: *** empty log message ***
+
+2011-07-12 14:17 +0000 [r1651]  Stevan_White:
+
+	* FreeSans.sfd: Latin: all letters now have
+	  'above' mark.
+
+2011-07-12 14:04 +0000 [r1650]  Stevan_White:
+
+	* FreeSerif.sfd: Combining diacritical marks:
+	  fiddled with positioning
+
+2011-07-01 10:56 +0000 [r1648-1649]  Stevan_White:
+
+	* FreeSans.sfd: Hebrew: tweeks to vowel points
+
+	* FreeMono.sfd: Alphabetic Presentation Forms:
+	  widened Hebrew wide letters
+
+2011-07-01 07:59 +0000 [r1647]  Stevan_White:
+
+	* FreeSerif.sfd: Hebrew: tweaks to absolute
+	  placement of marks
+
+2011-06-30 22:47 +0000 [r1646]  Stevan_White:
+
+	* FreeSerif.sfd: Hebrew: small tweeks to
+	  cantillation marks, etc
+
+2011-06-30 11:47 +0000 [r1645]  Stevan_White:
+
+	* FreeSerif.sfd: Hebrew: lower cantillation
+	  marks to left of vowels
+
+2011-06-27 00:20 +0000 [r1644]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Hebrew: got rid of spurious
+	  tables.
+
+2011-06-27 00:06 +0000 [r1643]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Hebrew: got yidddish CCMP with
+	  yod and yodyod working in Serif
+
+2011-06-26 22:32 +0000 [r1642]  Stevan_White:
+
+	* FreeSans.sfd: Hebrew: issue with Yiddish vs
+	  std. Hebrew scripts for MARK lookups. Somehow gets very confused
+	  by specific ranges, in different ways on different systems.
+	  Disabled distinction between scripts.
+
+2011-06-26 18:20 +0000 [r1641]  Stevan_White:
+
+	* FreeSans.sfd: Hebrew: corrected side of above
+	  vowel. More vowel marks.
+
+2011-06-26 17:56 +0000 [r1640]  Stevan_White:
+
+	* FreeSerif.sfd: Hebrew: corrected placement of
+	  top vowel. fiddled with cantellatin marks.
+
+2011-06-25 17:27 +0000 [r1639]  Stevan_White:
+
+	* FreeSerif.sfd: Hebrew: further fiddling with
+	  points
+
+2011-06-25 14:49 +0000 [r1638]  Stevan_White:
+
+	* FreeSerif.sfd: Hebrew: more fiddling with
+	  vowel and cantillation points
+
+2011-06-25 11:12 +0000 [r1637]  Stevan_White:
+
+	* FreeSerif.sfd: Hebrew: more vowel and
+	  cantillation point marks
+
+2011-06-25 09:01 +0000 [r1636]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Hebrew: disabled distinction
+	  between Yiddish and Std. vowel marks
+
+2011-06-24 14:57 +0000 [r1635]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Removed angle
+	  brackets from licence text, because it caused some trouble for
+	  some buggy software, and the offsetting could be done better with
+	  a newline.
+
+2011-06-24 13:17 +0000 [r1634]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSans.sfd, FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Hebrew: worked on MARK
+	  tables in Sans and Serif in response to further mails regarding
+	  bug 25887. Split one table up so lookups wre properly executed in
+	  both Yiddish and regular Hebrew. Some adjustment of letter
+	  spacing and punctuation in other faces.
+
+2011-06-12 07:14 +0000 [r1633]  Stevan_White:
+
+	* INSTALL, README: Fixed a couple of
+	  goofs
+
+2011-06-11 08:12 +0000 [r1632]  Stevan_White:
+
+	* INSTALL: General update: Esp. concerning OpenType
+	  support using FreeType2, and on Win 7 and Mac OS X.
+
+2011-06-11 08:07 +0000 [r1631]  Stevan_White:
+
+	* README: Removed remarks about how to install
+	  (better for INSTALL file) General re-phrasing and tidying.
+
+2011-06-10 09:34 +0000 [r1630]  Stevan_White:
+
+	* INSTALL: Correct name of X Windows system. Also
+	  added Microsoft and Apple to their product names for clarity and
+	  consistency.
+
+2011-06-10 09:31 +0000 [r1629]  Stevan_White:
+
+	* README: Correct name of X Window system. Added web
+	  page and contact info. Removed Primoz' e-mail.
+
+2011-06-08 11:34 +0000 [r1628]  Stevan_White:
+
+	* INSTALL: Removed remark about "cost", slight
+	  rewording, pursuant to discussion in bug #33449: INSTALL file not
+	  conform to FSF's policy
+
+2011-05-04 16:13 +0000 [r1627]  Stevan_White:
+
+	* tools/ranges/OpenType.py: new letters to Cyrillic
+	  Supplement
+
+2011-04-29 10:33 +0000 [r1626]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Latin: a few more small
+	  adjustments to accents
+
+2011-04-29 10:13 +0000 [r1625]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Latin: small adjustments to
+	  some accents
+
+2011-04-29 09:48 +0000 [r1624]  Stevan_White:
+
+	* notes/maintenance.txt: info about ssh keys on
+	  Savannah
+
+2011-02-03 21:13 +0000 [r1623]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Latin ^ Extensions:
+	  various fiddling with spacing and accents for greater uniformity.
+	  Also fixed a couple of errors.
+
+2011-02-02 21:33 +0000 [r1622]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Remedies bug #32326, about
+	  alignment for combining diacritics on dottedcircle Just put main
+	  'mark' anchors on the dottedcircle character.
+
+2011-01-30 13:28 +0000 [r1621]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Latin: Much fiddling
+	  with accents, also with width of accented i letters
+
+2011-01-29 18:19 +0000 [r1620]  Stevan_White:
+
+	* FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Accents macron,
+	  acute, grave: made more consistent
+
+2011-01-29 17:37 +0000 [r1619]  Stevan_White:
+
+	* FreeSerif.sfd: Chess pieces: made all same
+	  width, and in a square
+
+2011-01-28 21:05 +0000 [r1618]  Stevan_White:
+
+	* FreeSans.sfd: Made grave, acute, and macron a
+	  little more consistent
+
+2011-01-26 20:28 +0000 [r1617]  Stevan_White:
+
+	* FreeSerifBold.sfd: Made a few accents more
+	  consistent, re bug #32220
+
+2011-01-25 22:03 +0000 [r1616]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd: Latin, Cyrillic, Greek: more
+	  toward bug #32220
+
+2011-01-24 22:54 +0000 [r1615]  Stevan_White:
+
+	* FreeSerif.sfd: Latin, Cyrillic: preferred
+	  acute, grave and dieresis to the spacing modifier versions,
+	  somewhat in response to bug #32220
+	  http://savannah.gnu.org/bugs/?32220
+
+2011-01-21 22:12 +0000 [r1614]  Stevan_White:
+
+	* FreeSerifBold.sfd: Sinhala: various tweeking
+	  of auxiliary glyphs to avoid self-intersection
+
+2011-01-19 00:21 +0000 [r1613]  Stevan_White:
+
+	* FreeSerifBold.sfd: as prev.
+
+2011-01-19 00:14 +0000 [r1612]  Stevan_White:
+
+	* FreeSerifBold.sfd: Sinhala: trying to make
+	  widths like those of normal
+
+2011-01-18 23:26 +0000 [r1610-1611]  Stevan_White:
+
+	* FreeSerifBold.sfd: Geometric Shapes: re-did
+	  dotted circle, made some triangles bigger. Singhala: slight
+	  modification to widths, to make it more like normal.
+
+	* FreeSerif.sfd: Geometric Shapes: felt some
+	  triangles were over-large. Scaled, and fiddled with their
+	  references
+
+2011-01-18 08:53 +0000 [r1609]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Copyright: corrected
+	  on Karl Berry's advice.
+
+2011-01-18 08:41 +0000 [r1608]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: kerning
+
+2011-01-16 13:24 +0000 [r1606-1607]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: fixed one
+	  self-intersection
+
+	* FreeSerifBold.sfd: Sinhala: Now ccmp tables
+	  are working. Improved many gloppy self-intersections in the main
+	  Unicode range, but many remain in the replacement area.
+
+2011-01-16 11:35 +0000 [r1605]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Copyright notice:
+	  included 2011
+
+2011-01-15 21:35 +0000 [r1604]  Stevan_White:
+
+	* FreeSerifBold.sfd: Sinhala: mostly emboldened
+	  the FreeSerif glphs by 30 en. Many glyphs are pretty gloppy. Also
+	  the rak descender isn't connecting properly.
+
+2011-01-15 17:24 +0000 [r1603]  Stevan_White:
+
+	* FreeSerif.sfd: Miscellaneous Mathematical
+	  Symbols-A Mathematical Operators: a few more additions
+
+2011-01-09 15:08 +0000 [r1602]  Stevan_White:
+
+	* tools/ranges/OpenType.py: corrected/updated a
+	  couple of OpenType ranges
+
+2011-01-09 12:58 +0000 [r1601]  Stevan_White:
+
+	* FreeSerif.sfd: Mathematical Symbols: replaced
+	  some outlines with references Miscellaneous Mathematical
+	  Symbols-A: added a few
+
+2011-01-08 23:56 +0000 [r1600]  Stevan_White:
+
+	* FreeSerif.sfd: Miscellaneous Mathematical
+	  Symbols A & B: more
+
+2011-01-08 14:24 +0000 [r1599]  Stevan_White:
+
+	* FreeSerif.sfd: Miscellaneous Mathematical
+	  Symbols-A Miscellaneous Mathematical Symbols-B Supplemental
+	  Mathematical Operators: a few more characters
+
+2011-01-08 13:02 +0000 [r1598]  Stevan_White:
+
+	* FreeSerif.sfd: Miscellaneous Math Symbols-A:
+	  added a few easy symbols
+
+2011-01-08 00:21 +0000 [r1597]  Stevan_White:
+
+	* FreeSerif.sfd: Supplemental Mathematical
+	  Operators: Miscellaneous Mathematical Operators-B: a few more
+	  symbols
+
+2011-01-06 22:03 +0000 [r1596]  Stevan_White:
+
+	* FreeSerif.sfd: Miscellaneous Mathematical
+	  Symbols-B: added some easy ones
+
+2011-01-03 20:50 +0000 [r1595]  Stevan_White:
+
+	* FreeSerifBold.sfd: Greek Extended: U+1FC3
+	  should not have had a tilde resolves bug #32041: Error in
+	  FreeSerifBold.ttf character U+1FC3 (8131)
+
+2010-10-31 23:35 +0000 [r1594]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Added c2sc tables, and smcp
+	  tables for Turkish (dotted vs dotted i distinction)
+
+2010-10-29 06:57 +0000 [r1593]  Stevan_White:
+
+	* FreeSerif.sfd: Currency: Indian Rupee courtesy
+	  of Daniel Johnson Named some of the other characters.
+
+2010-10-19 23:01 +0000 [r1592]  Stevan_White:
+
+	* FreeSansBoldOblique.sfd: Latin: a bit
+	  o'kerning
+
+2010-10-19 19:25 +0000 [r1591]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Filled in IBM
+	  Classifications
+
+2010-10-19 07:27 +0000 [r1590]  Stevan_White:
+
+	* FreeSansBold.sfd,
+	  FreeSerif.sfd: roman: Mahjong made dot rounder
+	  sans: corrected missing extrema on ssharp
+
+2010-10-18 19:02 +0000 [r1589]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Combining Diacritical
+	  Marks: completed range
+
+2010-10-17 10:16 +0000 [r1588]  Stevan_White:
+
+	* FreeMono.sfd: Combining Diacritical Marks:
+	  completed range
+
+2010-10-12 21:50 +0000 [r1587]  Stevan_White:
+
+	* FreeMono.sfd: Miscellaneous Symbols: drew a
+	  few more.
+
+2010-10-12 18:27 +0000 [r1586]  Stevan_White:
+
+	* FreeMono.sfd: Miscellaneous Symbols: Corrected
+	  comet, drew a snowman. Solves bug #31315
+	  (https://savannah.gnu.org/bugs/?31315)
+
+2010-10-11 22:01 +0000 [r1585]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Malayalam: mass rename of
+	  auxiliary glyphs in Public Use Area
+
+2010-10-11 21:14 +0000 [r1584]  Stevan_White:
+
+	* FreeSerif.sfd: Adjusted spacing of some
+	  conjunct letter parts.
+
+2010-10-10 23:22 +0000 [r1583]  Stevan_White:
+
+	* FreeSerif.sfd: Malayalam: Corrected a couple
+	  of glyph names.
+
+2010-10-10 08:58 +0000 [r1582]  Stevan_White:
+
+	* FreeSans.sfd: Incorporated the Meera_04 font,
+	  of the GPL project Swathanthra Malayalam Computing
+	  http://savannah.nongnu.org/projects/smc/ Copyright (c) 2007,
+	  Hussain K H, Suresh P, Swathanthra Malayalam Computing Drew
+	  several additions for the modern Unicode standard. Cleaned up
+	  many glyphs, and re-named those in the Unicode range.
+	  Re-connected the lookups for Chillu letters to point to those in
+	  Unicode, and deleted the counterparts in the auxiliary range.
+
+2010-10-10 08:48 +0000 [r1581]  Stevan_White:
+
+	* FreeSerif.sfd: Malayalam: Re-named some glyphs
+	  so the commonly used ones were shorter. pba_mal renamed to ba_mal
+	  chandrakkala renamed to candrakala Cleared NameMe_195551 as it
+	  did nothing Raised ascenders on both i_sign_mal and ii_sign_mal,
+	  and made the latter go over preceeding letter, based on other
+	  fonts and samples.
+
+2010-10-07 06:21 +0000 [r1580]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Armenian: Changed U+FB13-7
+	  to 'dlig' lookup, based on a native speaker telling me this is
+	  not normally seen in printed form, and on the last lines of sect
+	  7.7 of the Unicode standard. (sans face too will follow)
+
+2010-10-06 20:34 +0000 [r1579]  Stevan_White:
+
+	* FreeSerif.sfd: Bengali: cleaned up a few
+	  conjunct glyphs
+
+2010-10-06 18:59 +0000 [r1578]  Stevan_White:
+
+	* FreeSerif.sfd: Phonetic Extensions Supplement:
+	  Corrected AD9B, raised all superscripts to capital height.
+	  (Thanks to Emmanuel Vallois for noticing!)
+
+2010-10-06 18:43 +0000 [r1577]  Stevan_White:
+
+	* FreeSerif.sfd: Cyrillic Extended-B: Corrected
+	  Payerok (pajerok) A67D. (Thanks to Emmanuel Valois for pointing
+	  it out!)
+
+2010-10-06 18:28 +0000 [r1576]  Stevan_White:
+
+	* FreeSerif.sfd: Tamil: Corrected position of
+	  pulli over some letters. (Thanks to Emmanuel Valois for pointing
+	  it out!)
+
+2010-10-05 21:58 +0000 [r1575]  Stevan_White:
+
+	* FreeSerif.sfd: Arabic: added some Pashto
+	  letters. Need init, final, medial forms.
+
+2010-10-05 19:40 +0000 [r1574]  Stevan_White:
+
+	* FreeSerif.sfd: Buginese: On advice of Emmanuel
+	  Vallois, corrected iya ligature per
+	  http://www.unicode.org/versions/Unicode5.2.0/ch11.pd
+
+2010-10-05 07:34 +0000 [r1573]  Stevan_White:
+
+	* FreeSerif.sfd: Buginese: added iya ligature
+	  based on WAZU test page
+	  http://www.wazu.jp/gallery/Test_Buginese.html
+
+2010-10-03 16:31 +0000 [r1572]  Stevan_White:
+
+	* FreeSerif.sfd: old-style numerals and lookup
+
+2010-10-03 15:47 +0000 [r1571]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: combining diacritical
+	  marks: More corrections, making dots on i and j to be replaced by
+	  mark.
+
+2010-10-03 10:19 +0000 [r1570]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: combining diacritical
+	  marks: in serif, made more marks to remove dot on i, j. Filled
+	  out range in nono-roman faces.
+
+2010-10-02 22:05 +0000 [r1569]  Stevan_White:
+
+	* FreeSerif.sfd: small-caps: tweeks
+
+2010-10-02 21:39 +0000 [r1568]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: ssharp: made thinner,
+	  deeper, and renamed
+
+2010-10-02 20:31 +0000 [r1567]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: small-caps: kerning
+
+2010-09-30 21:37 +0000 [r1566]  Stevan_White:
+
+	* FreeSerif.sfd: Tamil: rounded to int on the
+	  Private Use ligatures
+
+2010-09-30 18:55 +0000 [r1565]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd: Latin: a touch of kerning
+
+2010-09-29 22:16 +0000 [r1564]  Stevan_White:
+
+	* FreeMono.sfd: Braille Patterns: made the dots
+	  bigger
+
+2010-09-29 21:38 +0000 [r1563]  Stevan_White:
+
+	* FreeMono.sfd: Braille Patterns: Replaced to
+	  conform better to the Unicode Standard, sect. 15.10 and the
+	  Unicode glyph samples: like it or not, the dots are meant to be
+	  hollow and filled, representing 'off' and 'on'. All now reference
+	  auxiliary characters, for consistency and flexibility.
+
+2010-09-28 23:16 +0000 [r1562]  Stevan_White:
+
+	* FreeSansBold.sfd: small caps
+
+2010-09-28 08:21 +0000 [r1561]  Stevan_White:
+
+	* FreeSerifBold.sfd: small caps: Touch-ups
+
+2010-09-27 20:02 +0000 [r1560]  Stevan_White:
+
+	* FreeSerifBold.sfd: small caps
+
+2010-09-26 16:50 +0000 [r1559]  Stevan_White:
+
+	* FreeSerifBold.sfd: Added PS Private OtherBlues
+
+2010-09-26 10:55 +0000 [r1558]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Latin: tweeked a couple
+	  of stacked accents
+
+2010-09-26 09:52 +0000 [r1557]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: More revision of
+	  spacing and letter forms. Still lots to do.
+
+2010-09-25 23:13 +0000 [r1556]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: kerning for African
+	  characters
+
+2010-09-25 22:54 +0000 [r1555]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd: Latin: spacing and glyph form
+	  tweeks in Extended-C and IPA for African scripts. Re-worked
+	  upsilonlatin in serif roman.
+
+2010-09-25 18:36 +0000 [r1554]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Latin Extended-B:
+	  re-worked Oi, oi, and yhook; kerning and other tweeks for African
+	  scripts.
+
+2010-09-25 14:04 +0000 [r1553]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: lookups for Latin as
+	  in serif, to deal with accented i and the dot.
+
+2010-09-25 13:39 +0000 [r1552]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Latin: tweeked kerning
+	  and spacing, especially of apostrophe and quotes.
+
+2010-09-25 12:22 +0000 [r1551]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: IPA Extensions: Completed
+	  range in bold italic. bold: characters with low right hook, made
+	  not so extreme yhook: made narrower by bending right arm in a
+	  bit. replacement lookups for i with accents and i-ogonek with
+	  accents, so that accents replace the dot rather than floating
+	  over it.
+
+2010-09-23 22:17 +0000 [r1550]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: more fiddling with
+	  letter forms and spacing
+
+2010-09-23 20:24 +0000 [r1549]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd: blues values: made descender
+	  value a bit wider (also did this in previous commit to bold
+	  italic. Latin: more adjustments and corrections of hastily drawn
+	  glyphs.
+
+2010-09-23 19:27 +0000 [r1548]  Stevan_White:
+
+	* FreeSerif.sfd: Latin: Addressed several issues
+	  pointed out by Daniel Johnson concerning African and Navaho
+	  samples.
+
+2010-09-23 08:25 +0000 [r1547]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd: Latin: Re-worked
+	  various glyphs for consistency (mostly they appeared to have been
+	  skewed versions from bold--or worse). Still more to be done here.
+
+2010-09-22 22:20 +0000 [r1546]  Stevan_White:
+
+	* FreeSerifItalic.sfd: Latin: some marks for
+	  African languages
+
+2010-09-22 22:04 +0000 [r1545]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: various measures to
+	  improve the look of African-language samples. Kerned several
+	  letters in IPA Extensions range. Adjusted spacing of several
+	  letters. Re-worked Eng a bit, as well as gammalatin. Put some new
+	  letters in bold italic.
+
+2010-09-22 08:42 +0000 [r1544]  Stevan_White:
+
+	* FreeSans.sfd: Latin Extended Additional: added
+	  four letters small caps: made basic set and smcp lookup table
+
+2010-09-22 06:09 +0000 [r1543]  Stevan_White:
+
+	* Makefile: Was putting ttf files into the otf
+	  tarball. One character fixes it.
+
+2010-09-21 19:34 +0000 [r1541-1542]  Stevan_White:
+
+	* FreeSerif.sfd: Latin Extended-C: three new
+	  letters; two are additions for Shona
+
+	* tools/ranges/OpenType.py: three new letters in
+	  Latin Extended-C range
+
+2010-09-21 19:16 +0000 [r1540]  Stevan_White:
+
+	* FreeSerif.sfd: small caps: forms for
+	  Vietnamese lookup tables for accessing alternate forms in Greek
+	  and in Latin
+
+2010-09-21 08:29 +0000 [r1539]  Stevan_White:
+
+	* FreeSerif.sfd: small caps: tweeked spacing
+
+2010-09-20 22:45 +0000 [r1538]  Stevan_White:
+
+	* FreeSerif.sfd: Small caps replacements for
+	  Latin, with the smcp table to do it. (Haven't seen this actually
+	  function yet... )
+
+2010-09-19 13:22 +0000 [r1536]  Stevan_White:
+
+	* FreeSerifBold.sfd: Fixed validation problem.
+
+2010-09-19 13:15 +0000 [r1535]  Stevan_White:
+
+	* ChangeLog: today's commits
+
+2010-09-19 12:40 +0000 [r1534]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: Fixed one lookup table
+	  mistake, and a couple of glpyh omissions, that Harshula pointed
+	  out.
+
+2010-09-19 11:48 +0000 [r1533]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Sans: Applied Daniel
+	  Johnsons improvement to capital Eng to Sans, as described in
+	  previous commits.
+
+2010-09-19 10:32 +0000 [r1532]  Stevan_White:
+
+	* FreeSerif.sfd,
+	  FreeSerifBold.sfd: Coptic: added alphabet to
+	  bold. Accent marks not working -- a mystery. Some tweeks in
+	  medium face as well. glyph cleanup -- points too close, some
+	  glyphs outside bounding boxes.
+
+2010-09-18 08:50 +0000 [r1531]  Stevan_White:
+
+	* tools/ligatureLookups.py: mostly code style
+	  improvements
+
+2010-09-18 07:54 +0000 [r1529-1530]  Stevan_White:
+
+	* tools/ligatureLookups.py: mostly code tidying
+
+	* ChangeLog: added latest changes, and also changes
+	  to the tools/ directory since 2008
+
+2010-09-17 18:38 +0000 [r1528]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: tightened up left side
+	  of na and derivatives.
+
+2010-09-17 08:27 +0000 [r1527]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: tighened up left sides
+	  of u, lla, na, dha, ndha, nya, jnya
+
+2010-09-17 08:09 +0000 [r1526]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: tightened up some of
+	  the vowel conjuncts, and left side of nna.
+
+2010-09-16 20:05 +0000 [r1525]  Stevan_White:
+
+	* FreeSerif.sfd: Coptic: fiddled about with
+	  letter forms, striving for a kind of consistency. Sinhala:
+	  Harshula noticed four incorrect combined forms. Fixed these.
+
+2010-09-16 08:09 +0000 [r1524]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Latin Extended-A:
+	  Applied Daniel Johnson's patch that made two versions of capital
+	  Eng. His explanation: ' http://en.wikipedia.org/wiki/%C5%8A The
+	  form of capital Eng currently in all three FreeFont faces is that
+	  used by the Sami people, resembling a capital N with a hooked
+	  right descender. However, the form preferred for African and
+	  Amerindian languages resembles a tall lowercase n with a hook
+	  that almost meets the left vertical. (See wikipedia link above
+	  for a visual.) Recommend moving the existing Sami-style Eng to a
+	  PUA or non-Unicode slot, creating African-style Eng at U+014A,
+	  and adding a LOCL table with substitution rules for Inari Sami
+	  (ISM), Lule Sami (LSM), Northern Sami (NSM) and Skolt Sami (SKS).
+	  ' Latin Extended-B: Also in his patch: added U+0220 (Latin
+	  Capital Letter N with long leg)
+
+2010-09-15 17:02 +0000 [r1523]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin for Sami: Daniel
+	  Johnson's patch added alternative form of Eng for African
+	  languages and a 'local' table for the Sami form.
+
+2010-09-15 16:23 +0000 [r1522]  Stevan_White:
+
+	* notes/maintenance.txt: Updated upload and release
+	  procedures.
+
+2010-09-15 08:05 +0000 [r1521]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: regularized kundaliya
+	  a bit.
+
+2010-09-15 07:24 +0000 [r1520]  Stevan_White:
+
+	* FreeSans.sfd: Put stray lookup into its proper
+	  subtable.
+
+2010-09-14 23:24 +0000 [r1519]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: re-named a few more
+	  ligature glyphs, for consistency
+
+2010-09-14 22:50 +0000 [r1518]  Stevan_White:
+
+	* FreeSans.sfd: Gurmukhi: improved some names of
+	  ligature glyphs, and found one apparently doubled table entry
+	  (kagurmukhi_nuktagurmukhi.nukt now gur_ka.nukt)
+
+2010-09-14 22:17 +0000 [r1517]  Stevan_White:
+
+	* tools/GenerateTrueType: prev. commit had one space
+	  too many
+
+2010-09-14 22:08 +0000 [r1516]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSerif.sfd: Various measures to fix
+	  problems FontForge Find Problems reports under ATT, including a
+	  mass glyph rename of Sinhala ligatures.
+
+2010-09-14 13:02 +0000 [r1514-1515]  Stevan_White:
+
+	* tools/ranges.py,
+	  tools/hex_range.py,
+	  tools/findBackLayers.py,
+	  tools/ranges/OpenType.py,
+	  tools/GenerateTrueType,
+	  tools/GenerateOpenType,
+	  tools/range_report.py,
+	  tools/ligatureLookups.py,
+	  tools/validate.py,
+	  tools/GenerateMacTT,
+	  tools/checkGlyphNumbers.py,
+	  tools/isMonoMono.py,
+	  tools/nameBySlot.py: Added license and other tags
+	  to python files.
+
+	* Makefile: target for tarball for OpenType
+
+2010-09-13 19:21 +0000 [r1513]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeMonoOblique.sfd: Cyrillic: A few more old
+	  letters.
+
+2010-09-13 08:25 +0000 [r1512]  Stevan_White:
+
+	* tools/ranges/OpenType.py: updated some Web links.
+
+2010-09-12 22:57 +0000 [r1511]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Supplemental
+	  Punctuation: One character for consistency with other faces.
+
+2010-09-12 21:18 +0000 [r1510]  Stevan_White:
+
+	* FreeSans.sfd, FreeMono.sfd:
+	  Control Pictures: Added because it was easy.
+
+2010-09-12 20:49 +0000 [r1509]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Alphabetic
+	  Presentation Forms: filled out range in sans faces.
+
+2010-09-12 19:55 +0000 [r1508]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeMonoBoldOblique.sfd: Cleared hints.
+
+2010-09-12 19:43 +0000 [r1507]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Dozens of measures to
+	  pass general validation tests, including . cleanup of many glyphs
+	  for extrema and self-intersection problmes . re-naming glyphs
+	  whose PS names are too long. . removing blank glyphs . giving
+	  Unicode points to glyphs missing them. There are still a few
+	  lookup table issues in FreeSerif and FreeSans though.
+
+2010-09-12 18:42 +0000 [r1505-1506]  Stevan_White:
+
+	* tools/nameBySlot.py: Corrected output for high
+	  Unicode.
+
+	* tools/checkGlyphNumbers.py: Made aware of special
+	  TrueType slots.
+
+2010-09-12 16:50 +0000 [r1504]  Stevan_White:
+
+	* FreeSerif.sfd: Re-named some of the Sinhala
+	  lookups in somewhat better way. Control Pictures: added a bunch
+	  (but... is it worth it?)
+
+2010-09-12 15:01 +0000 [r1503]  Stevan_White:
+
+	* tools/range_report.py: Added a Private Use total
+	  and better explanation of totals generally. Some code clean-up.
+
+2010-09-11 13:24 +0000 [r1500-1502]  Stevan_White:
+
+	* ChangeLog: The sfd changes since the last release
+
+	* AUTHORS, CREDITS: Added some recent
+	  contributors
+
+	* tools/ranges/OpenType.py: made not to complain
+	  about extra TrueType characters.
+
+2010-09-11 09:52 +0000 [r1499]  Stevan_White:
+
+	* FreeSerif.sfd: Coptic: Widened bowl of Khei.
+
+2010-09-11 09:48 +0000 [r1498]  Stevan_White:
+
+	* FreeSerif.sfd: Coptic: deepened descenders of
+	  small letters to same depth as in Latin Expanded bowl of Fei and
+	  fei to resemble other samples.
+
+2010-09-10 21:38 +0000 [r1497]  Stevan_White:
+
+	* FreeSerif.sfd: Cyrillic: mostly positioning of
+	  marks for old Cyrillic alphabets
+
+2010-09-10 08:05 +0000 [r1496]  Stevan_White:
+
+	* FreeSerif.sfd: Coptic: Replaced acoptic with
+	  something more dramatic, fiddled with kerning, tidied some other
+	  letters
+
+2010-09-08 22:50 +0000 [r1495]  Stevan_White:
+
+	* AUTHORS, CREDITS: mention of recent
+	  additions
+
+2010-09-08 22:18 +0000 [r1494]  Stevan_White:
+
+	* FreeSerifBold.sfd: Block Elements: replaced
+	  long-missing shade blocks
+
+2010-09-08 22:12 +0000 [r1493]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Block Elements: replaced
+	  long-missing shade blocks
+
+2010-09-08 08:18 +0000 [r1492]  Stevan_White:
+
+	* tools/range_report.py: More explanation in output.
+
+2010-09-08 07:41 +0000 [r1491]  Stevan_White:
+
+	* tools/ranges/OpenType.py,
+	  tools/range_report.py: another consistency check
+	  added UCAS Extended range
+
+2010-09-07 18:30 +0000 [r1490]  Stevan_White:
+
+	* FreeSerif.sfd: Buginese: lookup tables and
+	  glyphs to re-order vowels, courtesy of Mohammad Anwari.
+
+2010-09-07 17:39 +0000 [r1489]  Stevan_White:
+
+	* FreeSans.sfd: Osmanya: courtesy of Daniel
+	  Johnson. Note this script is slanted in every sample I've seen.
+	  That is justification enough that the glyphs in this range look
+	  slated, although the face isn't oblique.
+
+2010-09-07 17:19 +0000 [r1488]  Stevan_White:
+
+	* FreeSans.sfd: UCAS Extended: by Daniel Johnson
+
+2010-09-07 16:43 +0000 [r1487]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: complete replacement
+	  of range with glyphs extracted more directly from Yannis
+	  Haralambous' sinha TeX font (last version was also derived from
+	  this font, but had undergone detrimental processing). Implements
+	  "rak" glyphs using three GSUB lookup steps.
+
+2010-09-04 23:52 +0000 [r1486]  Stevan_White:
+
+	* FreeSerif.sfd: Fix for FontForge warning (v
+	  20090923) "On Windows many apps will have problems with this
+	  font's kerning, because because 58 of its glyph kern pairs cannot
+	  be mapped to unicode-BMP kern pairs" This was due to kern tables
+	  for the Musical Symbols range, which isn't in the Unicode Basic
+	  Multilingual Plane. Removed this lookup. Might consider another
+	  way to position these symbols.
+
+2010-08-29 22:59 +0000 [r1485]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: patch by Harshula
+	  Jayasuriya to correct the writing system direction in some
+	  lookups.
+
+2010-08-29 22:52 +0000 [r1484]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Currency Symbols: additions
+	  and tweeking
+
+2010-08-24 19:15 +0000 [r1483]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: added one ligature
+	  glyph, from Harshula Jayasuriya
+
+2010-08-20 20:19 +0000 [r1482]  Stevan_White:
+
+	* FreeSerif.sfd: Resolves class of validation
+	  problems in Sinhala: Bad Glyph Name. This is a FontForge bug,
+	  that appears when certain types of problems occur in the glyph
+	  contours. Probably an arithmetic error causes some corruption.
+
+2010-08-20 18:17 +0000 [r1481]  Stevan_White:
+
+	* FreeSerif.sfd: corrected missing extrema in
+	  recent Latin Extended-D range
+
+2010-08-20 17:56 +0000 [r1480]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: re-did previous patch
+	  using a more recent one. Un-did some other glyph changes that
+	  didn't help much anyway.
+
+2010-08-20 11:05 +0000 [r1479]  Stevan_White:
+
+	* FreeMono.sfd: Named letters in several
+	  ranges... should write a script for this...
+
+2010-08-20 09:52 +0000 [r1478]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Added full GNU
+	  copyright announcement to TT Names. Updated Copyright date.
+
+2010-08-20 09:16 +0000 [r1477]  Stevan_White:
+
+	* FreeSerif.sfd: Sinhala: Applied a patch from
+	  Harshula Jayasuriya, improving glyph names. I tried to tidy up
+	  some of the glyphs, but it's a big job... Latin Extended B: fixed
+	  one case of missing extrema
+
+2010-08-18 09:48 +0000 [r1476]  Stevan_White:
+
+	* FreeSerif.sfd: Latin Extended-D: yet a few
+	  more easily made letters
+
+2010-08-18 09:32 +0000 [r1475]  Stevan_White:
+
+	* FreeSerif.sfd: Latin Extended-D: made a few
+	  more letters
+
+2010-08-09 06:34 +0000 [r1474]  Stevan_White:
+
+	* FreeSerif.sfd: Supplemental Arrows-A:
+	  completed
+
+2010-08-09 05:50 +0000 [r1473]  Stevan_White:
+
+	* FreeSerif.sfd: Arrows: completed
+
+2010-08-08 22:38 +0000 [r1472]  Stevan_White:
+
+	* FreeSerif.sfd: Added more Arrows
+
+2010-08-04 17:43 +0000 [r1471]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoBoldOblique.sfd: Combining Diacritics:
+	  some additions in BoldOblique, corrections in other faces.
+	  Several improvements to Greek letter forms in BoldOblique
+
+2010-08-03 21:59 +0000 [r1470]  Stevan_White:
+
+	* FreeMonoBold.sfd: Arrows, a few math
+	  operators, and one more combining diacritical
+
+2010-08-03 16:03 +0000 [r1469]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd: Added some combining
+	  diacriticals to bold, touched up some spacing modifiers. Minor
+	  corrections to roman.
+
+2010-08-03 15:06 +0000 [r1468]  Stevan_White:
+
+	* FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Marks, spacing
+	  modifier letters: corrected placement of marks, added some
+	  spacing modifier letters and combining marks.
+
+2010-08-03 12:53 +0000 [r1467]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Better Vietnamese
+	  support, using 'ccmp' and 'mark' lookup tables. MonoBoldOblique:
+	  added Extended Latin ranges
+
+2010-08-03 09:12 +0000 [r1466]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSerifBold.sfd: Vietnamese: Much adjustment
+	  of horn letters, also general adjustemen of marks
+
+2010-08-02 21:49 +0000 [r1465]  Stevan_White:
+
+	* FreeSerif.sfd: Vietnamese: inadvertently broke
+	  the main face. This fixes it.
+
+2010-08-02 18:25 +0000 [r1464]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Vietamese: In roman and
+	  sans, lookups are basically functional now. Used 'ccmp' Ligature
+	  Substitution to form stacked marks (inasmuch as glyphs for the
+	  stacked Unicode codepoints are available) Adjusted positioning of
+	  some marks. Named many letters and combining marks. roman italic.
+	  Re-designed horn of O and U. Other roman faces could also benefit
+	  from a horn job.
+
+2010-08-02 09:43 +0000 [r1462-1463]  Stevan_White:
+
+	* tools/ranges/OpenType.py: Correction regarding NKo
+	  range.
+
+	* tools/range_report.py: made not to complain about
+	  special TrueType slots 0x00, 0x01, 0x0D
+
+2010-08-02 08:38 +0000 [r1461]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeSerif.sfd: roman: correction to one math
+	  operator mono: Mathematical Operators complete (up to some
+	  pre-5.2 Unicode version)
+
+2010-08-01 22:01 +0000 [r1460]  Stevan_White:
+
+	* FreeMono.sfd: Mathematical Symbols: range
+	  nearly finished
+
+2010-08-01 17:17 +0000 [r1459]  Stevan_White:
+
+	* FreeMono.sfd,
+	  FreeSerif.sfd: roman: corrected direction of 2
+	  math operators mono: added several math operators
+
+2010-08-01 14:04 +0000 [r1458]  Stevan_White:
+
+	* FreeSerif.sfd: more improvements to marks for
+	  Vietnamese
+
+2010-08-01 13:25 +0000 [r1457]  Stevan_White:
+
+	* FreeSerif.sfd: Worked on mark positioning for
+	  Vietnamese, Cyrillic
+
+2010-07-30 11:59 +0000 [r1456]  Stevan_White:
+
+	* FreeMono.sfd: Reduced height of two-part
+	  Summation symbols https://savannah.gnu.org/bugs/?23064
+
+2010-07-30 10:53 +0000 [r1455]  Stevan_White:
+
+	* FreeSerif.sfd: Added some Miscellaneous
+	  Technical Symbols
+
+2010-07-30 09:24 +0000 [r1454]  Stevan_White:
+
+	* FreeMono.sfd: Corrected U+2626 Orthodox Cross
+	  https://savannah.gnu.org/bugs/?27579#discussion
+
+2010-07-29 19:29 +0000 [r1453]  Stevan_White:
+
+	* FreeSerif.sfd: Put in some scan lines
+	  23BA-23BD, based on 2500, as discussed in
+	  https://savannah.gnu.org/bugs/?23064 I still have no idea what
+	  the application for these glyphs would be...
+
+2010-07-17 20:07 +0000 [r1452]  Stevan_White:
+
+	* FreeSerif.sfd: added mark anchors for acute,
+	  grave in cyrillic (other faces already had them)
+
+2010-07-13 12:30 +0000 [r1451]  Stevan_White:
+
+	* FreeMono.sfd: Made germandbls (ess-zet) a bit
+	  wider, moved a bit to left
+
+2010-07-10 20:42 +0000 [r1450]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Resolves bug 30344: "Greek
+	  Final Sigma could be shortened"
+	  https://savannah.gnu.org/bugs/index.php?30344 Problem only
+	  affected roman, but touched up other faces anyway.
+
+2010-05-30 16:20 +0000 [r1449]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin-extended-B: fiddled
+	  with some of the horizontal strokes
+
+2010-05-29 16:22 +0000 [r1448]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: accents on ogonek
+	  letters (for Navaho) a little adjustment of apostrophe (Navaho,
+	  Hawaiian)
+
+2010-05-29 15:05 +0000 [r1447]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin mark problems * low
+	  dots in bold uneven * ring in bold smaller than in roman, and not
+	  heavier * apostrophe in italic too far to right (Navaho,
+	  Hawaiian)
+
+2010-05-29 09:19 +0000 [r1446]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Latin: fixed problems with
+	  various marks: ogonek, hook, comma below, some kerning, esp. of
+	  non-ascii characters
+
+2010-05-29 07:39 +0000 [r1445]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Sans: made dot accents same
+	  height as i-dot, kerned y with comma Both: made low comma accent
+	  lower, smaller (esp. for Romanian)
+
+2010-05-27 19:13 +0000 [r1444]  Stevan_White:
+
+	* FreeSans.sfd: Latin: make caron of more
+	  uniform height
+
+2010-05-27 18:58 +0000 [r1443]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansOblique.sfd: Latin: made ring accent
+	  heavier, esp. for Swedish
+
+2010-05-27 18:41 +0000 [r1442]  Stevan_White:
+
+	* FreeSans.sfd: Latin: i was somehow displaced,
+	  dotlessi was much too wide for Turkish
+
+2010-05-10 20:17 +0000 [r1441]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSerif.sfd: Latin: kerning tweeks
+
+2010-05-09 18:54 +0000 [r1440]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: As discussed in
+	  freefont-bugs mailing list, Thu, May 6, 2010 "FreeMono affected
+	  by OS X 10.6 nested character references bug" reduced reference
+	  nesting in multiple quote characters, as a courtesy to Mac OS
+	  10.6 users, who suffer from a bug.
+
+2010-05-03 22:52 +0000 [r1439]  Stevan_White:
+
+	* FreeSerif.sfd: Latin: kerning tweeks
+
+2010-05-03 20:51 +0000 [r1438]  Stevan_White:
+
+	* FreeSerifBold.sfd: Latin: spacing of round
+	  small letters, kerning tweeks, fiddled with ligatures
+
+2010-04-17 19:38 +0000 [r1437]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Daniel Johnson improved
+	  Cherokee Da
+
+2010-04-10 12:03 +0000 [r1436]  Stevan_White:
+
+	* FreeSerifBoldItalic.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMonoBold.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Emboldened underscore
+	  and related glyphs. Resolves issue 22999
+	  https://savannah.gnu.org/bugs/index.php?22999 Low line (005F) in
+	  bold fonts do not have heavier weight
+
+2010-04-09 18:55 +0000 [r1435]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Serif: Added Thai TTF names
+
+2010-04-08 20:44 +0000 [r1434]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeMonoBoldOblique.sfd: Corrected some
+	  language names A bit o kerning
+
+2010-04-08 20:20 +0000 [r1433]  Stevan_White:
+
+	* FreeSerifBold.sfd: Fixed problem with name.
+	  This should be the same as before the revision except for the
+	  fix. The KDE font installer was saying this face was incorrectly
+	  named Free Serif Bold Italic, but this wasn't quite correct. One
+	  of the other language names said it was named Free Serif Halvfett
+	  Kursiv, which conflicted with that language name for the real
+	  Free Serif Bold Italic.
+
+2010-04-08 17:26 +0000 [r1432]  Stevan_White:
+
+	* FreeSerifBold.sfd: regression: for some
+	  unknown reason, previous release gets built so that my system
+	  thinks it is Free Serif Bold Italic. This is a mystery. There is
+	  nothing about Italic in the file.
+
+2010-04-06 19:33 +0000 [r1431]  Stevan_White:
+
+	* sfd/Makefile: Made graceful in absence of
+	  Fontforge
+
+2010-03-29 20:47 +0000 [r1430]  Stevan_White:
+
+	* FreeSerifBold.sfd: Adjusted some accent marks,
+	  named a few characters
+
+2010-03-25 21:05 +0000 [r1429]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: added Ukrainian TTF
+	  names
+
+2010-03-24 23:40 +0000 [r1428]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: added bahasa
+	  indonesian TTF names
+
+2010-03-21 12:27 +0000 [r1427]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Added several TTF
+	  Names. (Need to check with native speakers.)
+
+2010-03-20 11:39 +0000 [r1426]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeSerif.sfd,
+	  FreeSerifBold.sfd: Fill out TTF Names tables
+	  regarding font names
+
+2010-03-19 08:37 +0000 [r1425]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBoldItalic.sfd,
+	  FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd,
+	  FreeMono.sfd,
+	  FreeSerif.sfd,
+	  FreeMonoBold.sfd,
+	  FreeMonoOblique.sfd,
+	  FreeSerifBold.sfd,
+	  FreeMonoBoldOblique.sfd: Removed TTF Names for
+	  'sample text' and all 'license URL' except English, 1) in
+	  response to FontForge complain that large names tables conflict
+	  with recent Windows patches 2) because they are redundant and
+	  inappropriate (Hope to post the list of sample texts elsewhere,
+	  because I like the idea.)
+
+2010-03-02 08:13 +0000 [r1424]  Stevan_White:
+
+	* FreeSans.sfd,
+	  FreeSansBold.sfd,
+	  FreeSansOblique.sfd,
+	  FreeSansBoldOblique.sfd: Latin standard
+	  ligatures: in non-bold, promoted dlig to liga. Put standard Dutch
+	  IJ in all; Adjusted spacing a bit
+
+2010-02-28 13:04 +0000 [r1423]  Stevan_White:
+
+	* FreeSerifItalic.sfd,
+	  FreeSerifBold.sfd: Cyrillic: further revision
+	  of spacing, in direction of loosening. bold ze was strangely
+	  thin; made bolder.

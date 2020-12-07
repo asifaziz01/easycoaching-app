@@ -1,0 +1,9 @@
+trnfaculty1
+Gbc416
+
+CTRL + 0 - Reset your browser
+CTRL+C - Copy
+CTRL+V - Paste
+CTRL+X - Cut
+CTRL+P - Print
+CTRL+A - Select All

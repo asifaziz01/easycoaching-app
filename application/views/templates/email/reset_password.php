@@ -1,0 +1,1 @@
+OTP for login to your <?php echo strtoupper($coaching_name); ?> account is <?php echo $otp; ?>. Please change your password form 'My Account' menu after login.

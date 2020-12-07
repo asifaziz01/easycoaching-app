@@ -1,0 +1,32 @@
+{
+  "short_name": "EasyCoaching",
+  "lang": "en-US",
+  "start_url": "https://easycoachingapp.com/app/login/login/index",
+  "display": "standalone",
+  "theme_color": "#4285F4",
+  "background_color": "#4285F4",
+  "icons": [
+    {
+      "src": "https://easycoachingapp.com/app/themes/default/assets/img/touch/app-icon128.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "https://easycoachingapp.com/app/themes/default/assets/img/touch/app-icon192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://easycoachingapp.com/app/themes/default/assets/img/touch/app-icon256.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "https://easycoachingapp.com/app/themes/default/assets/img/touch/app-icon384.png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "https://easycoachingapp.com/app/themes/default/assets/img/touch/app-icon512.png",
+      "sizes": "512x512"
+    }
+  ],
+  "name": "Easy Coaching App",
+  "gcm_sender_id": "1005540839272"
+}

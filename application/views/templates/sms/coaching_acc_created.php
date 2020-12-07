@@ -1,0 +1,1 @@
+Dear <?php echo $name; ?>! Your coaching account <?php echo strtoupper($coaching_name); ?> is setup and ready to use. You can login to your account using the URL <?php echo $url; ?>. Your access code is <?php echo $access_code; ?>. Share this URL with your users to login and/or create their accounts.

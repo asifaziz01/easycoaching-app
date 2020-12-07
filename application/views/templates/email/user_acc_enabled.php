@@ -1,0 +1,1 @@
+Dear <?php echo $name; ?>! Your account in <?php echo strtoupper($coaching_name); ?> is active. You can login with the credentials provided during sign-up. Your access code is <?php echo $access_code; ?>. You can log-in to your account using the URL <?php echo $url; ?>.

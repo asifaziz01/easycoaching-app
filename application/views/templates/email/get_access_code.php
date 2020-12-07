@@ -1,0 +1,1 @@
+Access code for <?php echo strtoupper($coaching_name); ?> is <?php echo $access_code; ?> 

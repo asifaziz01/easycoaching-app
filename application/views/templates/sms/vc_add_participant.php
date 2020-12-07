@@ -1,0 +1,2 @@
+You have been added to online class <?php echo strtoupper ($class_name); ?> <?php if ($start_date > 0) { echo ', scheduled on '.date ('d M, Y', $start_date).' at '.date ('H:i A', $start_date).'.'; } ?>
+-- <?php echo strtoupper($coaching_name); ?>
